@@ -1,25 +1,12 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "mas_test": 1743433800
+    "gen12_crashed": 1774894200,
+    "gen13_started": 1774894200
   },
-  "activeTests": {},
-  "completedTests": {
-    "mas_gen1": {
-      "completed": "2026-03-30T16:40:00Z",
-      "success_rate": 1.0,
-      "avg_quality": 0.831,
-      "avg_tokens": 293,
-      "avg_duration_sec": 0.88,
-      "status": "baseline_established"
-    }
-  },
-  "evolution": {
-    "current_generation": 1,
-    "baseline_established": true,
-    "convergence_count": 0,
-    "last_10_improvements": []
+  "currentStatus": {
+    "running": "mas_gen13.py",
+    "target_quality": 0.99,
+    "convergence_streak": "3/10",
+    "note": "Gen 12 crashed with ZeroDivisionError - fixed in Gen 13"
   }
 }
