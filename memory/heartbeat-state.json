@@ -1,11 +1,11 @@
 {
   "lastChecks": {
-    "gen14_complete": 1774894800
+    "gen22_complete": 1774896600
   },
   "currentStatus": {
     "running": "none",
-    "last_quality": 0.989,
-    "convergence_streak": "5/10",
-    "note": "Gen 14 complete - 0.989 quality, 5/10 convergence streak"
+    "last_quality": 0.954,
+    "convergence_streak": "0/10",
+    "note": "Gen22 (hybrid hierarchical): q=0.954, slight regression from gen13 (0.989). Swarm gen21 failed (0.645)."
   }
 }

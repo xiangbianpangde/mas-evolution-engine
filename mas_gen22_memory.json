@@ -1,0 +1,79 @@
+{
+  "insights": [],
+  "patterns": {},
+  "metrics": {},
+  "tool_effectiveness": {},
+  "meta_learning": {
+    "task_complexity_scores": {
+      "bench_1": 0.7975,
+      "bench_2": 0.6113999999999999,
+      "bench_3": 0.7664,
+      "bench_4": 0.7386999999999999,
+      "bench_5": 0.555
+    },
+    "quality_by_task_type": {
+      "code": [
+        0.9550000000000001,
+        0.9510000000000001
+      ],
+      "analysis": [
+        0.962,
+        0.95
+      ],
+      "research": [
+        0.952
+      ]
+    },
+    "agent_effectiveness": {
+      "pattern_matching_code": {
+        "success": 2,
+        "total": 2
+      },
+      "web_search_code": {
+        "success": 2,
+        "total": 2
+      },
+      "self_verification_verification": {
+        "success": 5,
+        "total": 5
+      },
+      "architecture_database_code": {
+        "success": 2,
+        "total": 2
+      },
+      "code_execution_code": {
+        "success": 2,
+        "total": 2
+      },
+      "self_verification_code": {
+        "success": 2,
+        "total": 2
+      },
+      "pattern_matching_analysis": {
+        "success": 2,
+        "total": 2
+      },
+      "web_search_analysis": {
+        "success": 3,
+        "total": 3
+      },
+      "architecture_database_analysis": {
+        "success": 3,
+        "total": 3
+      },
+      "self_verification_analysis": {
+        "success": 2,
+        "total": 2
+      },
+      "pattern_matching_research": {
+        "success": 1,
+        "total": 1
+      },
+      "self_verification_research": {
+        "success": 1,
+        "total": 1
+      }
+    },
+    "convergence_count": 0
+  }
+}
