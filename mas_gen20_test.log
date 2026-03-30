@@ -1,33 +1,46 @@
-============================================================
-🧬 GENERATION 20
-============================================================
+======================================================================
+🧬 GENERATION 20 - EVOLVED BENCHMARK (3x Harder)
+======================================================================
+NEW: Multi-dimensional quality assessment (5 dimensions)
+NEW: Difficulty multipliers (hard=1.3x, very_hard=1.6x)
+NEW: Harder tasks requiring actual reasoning
+======================================================================
 
-📊 bench_1
-   Resources: CPU=0.0% Mem=12.0% Disk=71.3GB
-   ✅ Quality=1.000 | Subtasks=3 | Tools=2 | ✓=True
+📊 bench_1 [hard]
+   Quality: 0.659 (base: 0.507, mult: 1.3x)
+   Dims: correctness=1.00, completeness=0.50, reasoning_depth=0.30, creativity=0.33, efficiency=0.40
 
-📊 bench_2
-   Resources: CPU=0.0% Mem=12.0% Disk=71.3GB
-   ✅ Quality=1.000 | Subtasks=3 | Tools=2 | ✓=True
+📊 bench_2 [very_hard]
+   Quality: 0.364 (base: 0.227, mult: 1.6x)
+   Dims: correctness=0.00, completeness=0.75, reasoning_depth=0.39, creativity=0.00, efficiency=0.00
 
-📊 bench_3
-   Resources: CPU=0.0% Mem=12.0% Disk=71.3GB
-   ✅ Quality=0.946 | Subtasks=3 | Tools=1 | ✓=True
+📊 bench_3 [very_hard]
+   Quality: 0.428 (base: 0.267, mult: 1.6x)
+   Dims: correctness=0.20, completeness=0.75, reasoning_depth=0.39, creativity=0.00, efficiency=0.00
 
-📊 bench_4
-   Resources: CPU=0.0% Mem=12.0% Disk=71.3GB
-   ✅ Quality=1.000 | Subtasks=3 | Tools=2 | ✓=True
+📊 bench_4 [very_hard]
+   Quality: 0.811 (base: 0.507, mult: 1.6x)
+   Dims: correctness=1.00, completeness=0.50, reasoning_depth=0.30, creativity=0.33, efficiency=0.40
 
-📊 bench_5
-   Resources: CPU=0.0% Mem=12.0% Disk=71.3GB
-   ✅ Quality=1.000 | Subtasks=3 | Tools=2 | ✓=True
+📊 bench_5 [hard]
+   Quality: 0.296 (base: 0.227, mult: 1.3x)
+   Dims: correctness=0.00, completeness=0.75, reasoning_depth=0.39, creativity=0.00, efficiency=0.00
 
-============================================================
-📈 RESULTS - GENERATION 6
-============================================================
-  Success Rate:    100.0%
-  Avg Quality:     0.989
-  Avg Tools/Task:  1.8
-  Verification:    100%
-  KB Insights:     15
-============================================================
+======================================================================
+📈 RESULTS - EVOLVED BENCHMARK (Gen 20)
+======================================================================
+  Avg Quality (adjusted): 0.511
+  Avg Quality (base):    0.347
+  Verification Rate:     40%
+
+📊 Quality Dimensions:
+   correctness         : 0.440
+   completeness        : 0.650
+   reasoning_depth     : 0.352
+   creativity          : 0.133
+   efficiency          : 0.160
+
+📊 Difficulty Impact:
+   hard        : 0.477 (2 tasks)
+   very_hard   : 0.534 (3 tasks)
+======================================================================
