@@ -1,0 +1,21 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "mas_test": 1743433600
+  },
+  "activeTests": {
+    "mas_gen1": {
+      "pid": 22336,
+      "started": "2026-03-30T16:40:00Z",
+      "benchmark": "5_tasks",
+      "status": "running"
+    }
+  },
+  "evolution": {
+    "current_generation": 1,
+    "baseline_established": true,
+    "convergence_count": 0
+  }
+}

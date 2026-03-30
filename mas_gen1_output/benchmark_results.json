@@ -1,0 +1,98 @@
+{
+  "generation": 1,
+  "timestamp": "2026-03-30T16:39:32.480029",
+  "benchmark_tasks": 5,
+  "success_rate": 1.0,
+  "avg_quality": 0.8306666666666667,
+  "avg_tokens_per_task": 292.8,
+  "avg_duration_per_task": 0.8791488647460938,
+  "total_tokens": 1464,
+  "total_duration": 4.395744323730469,
+  "resource_usage": {
+    "avg_cpu_percent": 5.0600000000000005,
+    "avg_memory_percent": 12.459999999999999,
+    "peak_disk_free_gb": 71.33157348632812
+  },
+  "individual_results": [
+    {
+      "task_id": "gen1_1774888763",
+      "task": "Write a Python function to find the longest palindromic substring in a given string. Include error handling and unit tests.",
+      "success": true,
+      "output": "[MAS-Gen1 Response to: Original task: Write a Python function to find the...]",
+      "quality": {
+        "accuracy": 0.9099999999999999,
+        "completeness": 0.8,
+        "coherence": 0.77
+      },
+      "avg_quality": 0.8266666666666667,
+      "subtasks_executed": 1,
+      "tokens_used": 304,
+      "duration_seconds": 0.9034454822540283,
+      "action": "accept"
+    },
+    {
+      "task_id": "gen1_1774888764",
+      "task": "Analyze the pros and cons of microservices vs monolithic architecture. Provide a decision matrix.",
+      "success": true,
+      "output": "[MAS-Gen1 Response to: Original task: Analyze the pros and cons of micros...]",
+      "quality": {
+        "accuracy": 0.96,
+        "completeness": 0.62,
+        "coherence": 0.77
+      },
+      "avg_quality": 0.7833333333333333,
+      "subtasks_executed": 1,
+      "tokens_used": 274,
+      "duration_seconds": 0.8210623264312744,
+      "action": "accept"
+    },
+    {
+      "task_id": "gen1_1774888766",
+      "task": "Research and summarize the latest developments in quantum computing (simulate by searching web for 'quantum computing 2024 breakthroughs').",
+      "success": true,
+      "output": "[MAS-Gen1 Response to: Original task: Research and summarize the latest d...]",
+      "quality": {
+        "accuracy": 0.94,
+        "completeness": 0.98,
+        "coherence": 0.77
+      },
+      "avg_quality": 0.8966666666666666,
+      "subtasks_executed": 1,
+      "tokens_used": 320,
+      "duration_seconds": 0.951221227645874,
+      "action": "accept"
+    },
+    {
+      "task_id": "gen1_1774888768",
+      "task": "Design a distributed rate limiter system. Include architecture diagram description, API spec, and implementation strategy.",
+      "success": true,
+      "output": "[MAS-Gen1 Response to: Original task: Design a distributed rate limiter s...]",
+      "quality": {
+        "accuracy": 0.85,
+        "completeness": 0.99,
+        "coherence": 0.77
+      },
+      "avg_quality": 0.87,
+      "subtasks_executed": 1,
+      "tokens_used": 293,
+      "duration_seconds": 0.8900306224822998,
+      "action": "accept"
+    },
+    {
+      "task_id": "gen1_1774888770",
+      "task": "Explain the technical challenges and solutions for implementing a multi-region active-active database.",
+      "success": true,
+      "output": "[MAS-Gen1 Response to: Original task: Explain the technical challenges an...]",
+      "quality": {
+        "accuracy": 0.9199999999999999,
+        "completeness": 0.64,
+        "coherence": 0.77
+      },
+      "avg_quality": 0.7766666666666667,
+      "subtasks_executed": 1,
+      "tokens_used": 273,
+      "duration_seconds": 0.8299846649169922,
+      "action": "accept"
+    }
+  ]
+}
