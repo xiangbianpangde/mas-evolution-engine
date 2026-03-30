@@ -1,0 +1,55 @@
+{
+  "insights": [],
+  "patterns": {},
+  "metrics": {},
+  "tool_usage": {
+    "code_execution_code": {
+      "success": 2,
+      "total": 2
+    },
+    "architecture_database_code": {
+      "success": 0,
+      "total": 2
+    },
+    "web_search_code": {
+      "success": 2,
+      "total": 2
+    },
+    "code_execution_analysis": {
+      "success": 2,
+      "total": 2
+    },
+    "architecture_database_analysis": {
+      "success": 2,
+      "total": 2
+    },
+    "web_search_analysis": {
+      "success": 2,
+      "total": 2
+    },
+    "code_execution_research": {
+      "success": 2,
+      "total": 2
+    },
+    "architecture_database_research": {
+      "success": 0,
+      "total": 2
+    },
+    "web_search_research": {
+      "success": 2,
+      "total": 2
+    },
+    "code_execution_general": {
+      "success": 4,
+      "total": 4
+    },
+    "architecture_database_general": {
+      "success": 2,
+      "total": 4
+    },
+    "web_search_general": {
+      "success": 4,
+      "total": 4
+    }
+  }
+}
