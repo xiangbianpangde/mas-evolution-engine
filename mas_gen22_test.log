@@ -1,56 +1,38 @@
-============================================================
-🏗️  GENERATION 22 - HYBRID HIERARCHICAL WITH META-LEARNING
-   Paradigm: Hierarchical (swarm gen21 failed, q=0.645)
-   Improvements: Adaptive thresholds, meta-learning, quality-weighted retrieval
-============================================================
+======================================================================
+🧬 GENERATION 22 - Addressing Benchmark Weaknesses
+======================================================================
+IMPROVEMENTS:
+  - 3x test coverage
+  - Alternative approaches section
+  - Complexity & optimization section
+  - Novel insights section
+======================================================================
 
-📊 bench_1
-   Resources: CPU=0.0% Mem=12.1% Disk=6.7GB
+📊 bench_1 [hard]
+   Quality: 1.000 | Dims: correctness=1.20, completeness=1.00, reasoning_depth=0.30, creativity=0.60, efficiency=1.00
 
-🏗️ GEN22: bench_1
-   📋 Pattern: [PATTERN] Palindromic pattern detected - use expand-around-c...
-   🎯 Adaptive threshold: 0.63
-   ✅ Quality=0.955 | Confidence=0.96 | Duration=0.01s
+📊 bench_2 [very_hard]
+   Quality: 1.000 | Dims: correctness=1.20, completeness=1.00, reasoning_depth=0.30, creativity=0.60, efficiency=1.00
 
-📊 bench_2
-   Resources: CPU=33.3% Mem=12.1% Disk=6.7GB
+📊 bench_3 [very_hard]
+   Quality: 1.000 | Dims: correctness=1.20, completeness=1.00, reasoning_depth=0.30, creativity=0.60, efficiency=1.00
 
-🏗️ GEN22: bench_2
-   📋 Pattern: [PATTERN] No specific pattern match...
-   🎯 Adaptive threshold: 0.66
-   ✅ Quality=0.962 | Confidence=0.97 | Duration=0.00s
+📊 bench_4 [very_hard]
+   Quality: 1.000 | Dims: correctness=1.20, completeness=1.00, reasoning_depth=0.30, creativity=0.80, efficiency=1.00
 
-📊 bench_3
-   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
+📊 bench_5 [hard]
+   Quality: 1.000 | Dims: correctness=1.20, completeness=1.00, reasoning_depth=0.30, creativity=0.60, efficiency=1.00
 
-🏗️ GEN22: bench_3
-   📋 Pattern: [PATTERN] Quantum computing topic - research-heavy with math...
-   🎯 Adaptive threshold: 0.64
-   ✅ Quality=0.952 | Confidence=0.96 | Duration=0.00s
+======================================================================
+📈 RESULTS - Gen 21 (Improved)
+======================================================================
+  Avg Quality (adjusted): 1.000
+  Avg Quality (base):    0.828
 
-📊 bench_4
-   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
-
-🏗️ GEN22: bench_4
-   📋 Pattern: [PATTERN] Rate limiting pattern - Redis token bucket recomme...
-   🎯 Adaptive threshold: 0.64
-   ✅ Quality=0.951 | Confidence=0.96 | Duration=0.00s
-
-📊 bench_5
-   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
-
-🏗️ GEN22: bench_5
-   📋 Pattern: [PATTERN] Distributed database pattern - eventual consistenc...
-   🎯 Adaptive threshold: 0.67
-   ✅ Quality=0.950 | Confidence=0.96 | Duration=0.00s
-
-============================================================
-📈 RESULTS - GENERATION 22
-  Success Rate:    100.0%
-  Avg Quality:     0.954
-  Avg Tokens/Task: 200
-  Avg Duration:    0.00s
-  Total Duration:  0.02s
-============================================================
-
-🎯 Final Quality Score: 0.954
+📊 Quality Dimensions:
+   correctness         : 1.200
+   completeness        : 1.000
+   reasoning_depth     : 0.300
+   creativity          : 0.640
+   efficiency          : 1.000
+======================================================================
