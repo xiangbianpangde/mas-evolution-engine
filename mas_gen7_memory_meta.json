@@ -1,0 +1,122 @@
+{
+  "task_outcomes": [
+    {
+      "task_type": "code",
+      "complexity": "medium",
+      "approach": "standard",
+      "quality": 0.7000000000000001,
+      "timestamp": "2026-03-30T17:01:39.699362"
+    },
+    {
+      "task_type": "analysis",
+      "complexity": "low",
+      "approach": "standard",
+      "quality": 0.6000000000000001,
+      "timestamp": "2026-03-30T17:01:40.003985"
+    },
+    {
+      "task_type": "research",
+      "complexity": "high",
+      "approach": "standard",
+      "quality": 0.6000000000000001,
+      "timestamp": "2026-03-30T17:01:40.309118"
+    },
+    {
+      "task_type": "code",
+      "complexity": "high",
+      "approach": "standard",
+      "quality": 0.7000000000000001,
+      "timestamp": "2026-03-30T17:01:40.615079"
+    },
+    {
+      "task_type": "analysis",
+      "complexity": "medium",
+      "approach": "standard",
+      "quality": 0.6000000000000001,
+      "timestamp": "2026-03-30T17:01:40.919818"
+    },
+    {
+      "task_type": "code",
+      "complexity": "medium",
+      "approach": "standard",
+      "quality": 0.75,
+      "timestamp": "2026-03-30T17:02:22.771896"
+    },
+    {
+      "task_type": "analysis",
+      "complexity": "low",
+      "approach": "standard",
+      "quality": 0.7666666666666667,
+      "timestamp": "2026-03-30T17:02:23.079450"
+    },
+    {
+      "task_type": "research",
+      "complexity": "high",
+      "approach": "standard",
+      "quality": 0.8166666666666668,
+      "timestamp": "2026-03-30T17:02:23.389483"
+    },
+    {
+      "task_type": "code",
+      "complexity": "high",
+      "approach": "standard",
+      "quality": 0.75,
+      "timestamp": "2026-03-30T17:02:23.695729"
+    },
+    {
+      "task_type": "analysis",
+      "complexity": "medium",
+      "approach": "standard",
+      "quality": 0.7666666666666667,
+      "timestamp": "2026-03-30T17:02:24.003857"
+    }
+  ],
+  "approach_scores": {
+    "standard": [
+      0.7000000000000001,
+      0.6000000000000001,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.6000000000000001,
+      0.75,
+      0.7666666666666667,
+      0.8166666666666668,
+      0.75,
+      0.7666666666666667
+    ]
+  },
+  "complexity_routing": {
+    "code_medium": {
+      "standard": [
+        0.7000000000000001,
+        0.75
+      ]
+    },
+    "analysis_low": {
+      "standard": [
+        0.6000000000000001,
+        0.7666666666666667
+      ]
+    },
+    "research_high": {
+      "standard": [
+        0.6000000000000001,
+        0.8166666666666668
+      ]
+    },
+    "code_high": {
+      "standard": [
+        0.7000000000000001,
+        0.75
+      ]
+    },
+    "analysis_medium": {
+      "standard": [
+        0.6000000000000001,
+        0.7666666666666667
+      ]
+    }
+  },
+  "insights": [],
+  "total_tasks": 10
+}
