@@ -1,0 +1,216 @@
+{
+  "quality": 0.28,
+  "results": [
+    {
+      "task_id": "bench_1",
+      "quality": 0.24000000000000005,
+      "subtasks": [
+        {
+          "task_id": "bench_1",
+          "agent": "Code",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a Python function to find the longest pa...\n# Placeholder implementation",
+          "elapsed": 0.28009748458862305,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_1",
+          "agent": "Analysis",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a Python function to find the longest pa...\n# Placeholder implementation",
+          "elapsed": 0.2875206470489502,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_1",
+          "agent": "Research",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a Python function to find the longest pa...\n# Placeholder implementation",
+          "elapsed": 0.28677916526794434,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "task_id": "bench_2",
+      "quality": 0.34,
+      "subtasks": [
+        {
+          "task_id": "bench_2",
+          "agent": "Code",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Design a thread-safe LRU cache with O(1) get and p...\n# Placeholder implementation",
+          "elapsed": 0.2678699493408203,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_2",
+          "agent": "Analysis",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Design a thread-safe LRU cache with O(1) get and p...\n# Placeholder implementation",
+          "elapsed": 0.24903130531311035,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_2",
+          "agent": "Research",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Design a thread-safe LRU cache with O(1) get and p...\n# Placeholder implementation",
+          "elapsed": 0.2594282627105713,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "task_id": "bench_3",
+      "quality": 0.34,
+      "subtasks": [
+        {
+          "task_id": "bench_3",
+          "agent": "Code",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Write a SQL query to find employees earning above ...\n# Placeholder implementation",
+          "elapsed": 0.24707651138305664,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_3",
+          "agent": "Analysis",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Write a SQL query to find employees earning above ...\n# Placeholder implementation",
+          "elapsed": 0.24800801277160645,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_3",
+          "agent": "Research",
+          "quality": 0.30000000000000004,
+          "solution": "# Solution for: Write a SQL query to find employees earning above ...\n# Placeholder implementation",
+          "elapsed": 0.25995755195617676,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "task_id": "bench_4",
+      "quality": 0.24000000000000005,
+      "subtasks": [
+        {
+          "task_id": "bench_4",
+          "agent": "Code",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a function to serialize and deserialize ...\n# Placeholder implementation",
+          "elapsed": 0.24071836471557617,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_4",
+          "agent": "Analysis",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a function to serialize and deserialize ...\n# Placeholder implementation",
+          "elapsed": 0.23674654960632324,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_4",
+          "agent": "Research",
+          "quality": 0.2,
+          "solution": "# Solution for: Implement a function to serialize and deserialize ...\n# Placeholder implementation",
+          "elapsed": 0.24229669570922852,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "task_id": "bench_5",
+      "quality": 0.24000000000000005,
+      "subtasks": [
+        {
+          "task_id": "bench_5",
+          "agent": "Code",
+          "quality": 0.2,
+          "solution": "# Solution for: Design a rate limiter using sliding window algorit...\n# Placeholder implementation",
+          "elapsed": 0.25629091262817383,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_5",
+          "agent": "Analysis",
+          "quality": 0.2,
+          "solution": "# Solution for: Design a rate limiter using sliding window algorit...\n# Placeholder implementation",
+          "elapsed": 0.24854421615600586,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        },
+        {
+          "task_id": "bench_5",
+          "agent": "Research",
+          "quality": 0.2,
+          "solution": "# Solution for: Design a rate limiter using sliding window algorit...\n# Placeholder implementation",
+          "elapsed": 0.25528526306152344,
+          "checks": [
+            false,
+            true
+          ],
+          "success": true
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-03-30T18:40:04.778707"
+}

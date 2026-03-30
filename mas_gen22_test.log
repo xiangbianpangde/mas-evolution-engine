@@ -5,7 +5,7 @@
 ============================================================
 
 📊 bench_1
-   Resources: CPU=0.0% Mem=12.0% Disk=6.7GB
+   Resources: CPU=0.0% Mem=12.1% Disk=6.7GB
 
 🏗️ GEN22: bench_1
    📋 Pattern: [PATTERN] Palindromic pattern detected - use expand-around-c...
@@ -13,7 +13,7 @@
    ✅ Quality=0.955 | Confidence=0.96 | Duration=0.01s
 
 📊 bench_2
-   Resources: CPU=33.3% Mem=12.0% Disk=6.7GB
+   Resources: CPU=33.3% Mem=12.1% Disk=6.7GB
 
 🏗️ GEN22: bench_2
    📋 Pattern: [PATTERN] No specific pattern match...
@@ -21,7 +21,7 @@
    ✅ Quality=0.962 | Confidence=0.97 | Duration=0.00s
 
 📊 bench_3
-   Resources: CPU=50.0% Mem=12.0% Disk=6.7GB
+   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
 
 🏗️ GEN22: bench_3
    📋 Pattern: [PATTERN] Quantum computing topic - research-heavy with math...
@@ -29,7 +29,7 @@
    ✅ Quality=0.952 | Confidence=0.96 | Duration=0.00s
 
 📊 bench_4
-   Resources: CPU=50.0% Mem=12.0% Disk=6.7GB
+   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
 
 🏗️ GEN22: bench_4
    📋 Pattern: [PATTERN] Rate limiting pattern - Redis token bucket recomme...
@@ -37,7 +37,7 @@
    ✅ Quality=0.951 | Confidence=0.96 | Duration=0.00s
 
 📊 bench_5
-   Resources: CPU=0.0% Mem=12.0% Disk=6.7GB
+   Resources: CPU=50.0% Mem=12.1% Disk=6.7GB
 
 🏗️ GEN22: bench_5
    📋 Pattern: [PATTERN] Distributed database pattern - eventual consistenc...
