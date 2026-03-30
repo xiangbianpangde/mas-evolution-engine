@@ -1,0 +1,92 @@
+{
+  "generation": 21,
+  "improvements": [
+    "3x tests",
+    "alternatives",
+    "complexity analysis",
+    "novel insights"
+  ],
+  "summary": {
+    "avg_quality_adjusted": 1.0,
+    "avg_quality_base": 0.828
+  },
+  "dimension_averages": {
+    "correctness": 1.2,
+    "completeness": 1.0,
+    "reasoning_depth": 0.3,
+    "creativity": 0.64,
+    "efficiency": 1.0
+  },
+  "task_results": [
+    {
+      "task_id": "bench_1",
+      "quality": 1.0,
+      "base_quality": 0.82,
+      "difficulty_multiplier": 1.3,
+      "dimensions": {
+        "correctness": 1.2,
+        "completeness": 1.0,
+        "reasoning_depth": 0.3,
+        "creativity": 0.6000000000000001,
+        "efficiency": 1.0
+      },
+      "verification": true
+    },
+    {
+      "task_id": "bench_2",
+      "quality": 1.0,
+      "base_quality": 0.82,
+      "difficulty_multiplier": 1.6,
+      "dimensions": {
+        "correctness": 1.2,
+        "completeness": 1.0,
+        "reasoning_depth": 0.3,
+        "creativity": 0.6000000000000001,
+        "efficiency": 1.0
+      },
+      "verification": true
+    },
+    {
+      "task_id": "bench_3",
+      "quality": 1.0,
+      "base_quality": 0.82,
+      "difficulty_multiplier": 1.6,
+      "dimensions": {
+        "correctness": 1.2,
+        "completeness": 1.0,
+        "reasoning_depth": 0.3,
+        "creativity": 0.6000000000000001,
+        "efficiency": 1.0
+      },
+      "verification": true
+    },
+    {
+      "task_id": "bench_4",
+      "quality": 1.0,
+      "base_quality": 0.86,
+      "difficulty_multiplier": 1.6,
+      "dimensions": {
+        "correctness": 1.2,
+        "completeness": 1.0,
+        "reasoning_depth": 0.3,
+        "creativity": 0.8,
+        "efficiency": 1.0
+      },
+      "verification": true
+    },
+    {
+      "task_id": "bench_5",
+      "quality": 1.0,
+      "base_quality": 0.82,
+      "difficulty_multiplier": 1.3,
+      "dimensions": {
+        "correctness": 1.2,
+        "completeness": 1.0,
+        "reasoning_depth": 0.3,
+        "creativity": 0.6000000000000001,
+        "efficiency": 1.0
+      },
+      "verification": true
+    }
+  ]
+}
