@@ -1,0 +1,22 @@
+============================================================
+🧬 GENERATION 12 - Enhanced Research & Multi-Pass Verification
+============================================================
+⏰ Started: 2026-03-30T18:10:30.330010
+
+📊 bench_1
+   Resources: CPU=0.0% Mem=11.9% Disk=71.3GB
+   ⚠️ Subtask 0 failed: name 'start' is not defined
+   ⚠️ Subtask 1 failed: name 'start' is not defined
+   ⚠️ Subtask 2 failed: name 'start' is not defined
+   ⚠️ Subtask 3 failed: name 'start' is not defined
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/mas_gen12.py", line 551, in <module>
+    quality, results = run_benchmark()
+                       ^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/mas_gen12.py", line 510, in run_benchmark
+    synthesis = orchestrator.synthesize(subtask_results, task)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/mas_gen12.py", line 421, in synthesize
+    accuracy = min(1.0, sum(r["quality"] for r in subtask_results) / len(subtask_results) + 0.1)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
