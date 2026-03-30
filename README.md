@@ -2,19 +2,15 @@
 
 Multi-Agent System Architecture Evolution Engine - Autonomous self-improving MAS framework.
 
-## Overview
+## Current Generation: Gen 3
 
-This repository contains an autonomous闭环测试循环系统 that continuously designs, tests, and optimizes Multi-Agent System (MAS) architectures.
-
-## Current Generation: Gen 2
-
-Latest architecture: **Multi-Specialist with Self-Reflection**
+Latest architecture: **Parallel Multi-Agent with Tool Use & Multi-Turn Reflection**
 
 ### Key Features
-- **Task Router**: Dynamic routing (Code/Analysis/Research)
-- **Specialized Agents**: Type-specific prompting and evaluation
-- **Self-Reflection Loop**: Quality verification before finalization
-- **Shared Context**: Cross-task coherence store
+- **Parallel Execution**: 3 agents work simultaneously per task
+- **Tool Registry**: Web search, code execution, calculator, dictionary
+- **Multi-Turn Reflection**: Up to 3 iterations for quality达标
+- **Multi-Criteria Assessor**: completeness, correctness, coherence, depth, tool_usage
 
 ## Core Principles
 
@@ -28,6 +24,16 @@ Latest architecture: **Multi-Specialist with Self-Reflection**
 |-----|------|-------------|-------------|
 | 1 | Hierarchical Orchestrator | 0.831 | Baseline with retry logic |
 | 2 | Multi-Specialist | 0.940 | Self-reflection + specialized agents |
+| 3 | Parallel Multi-Agent | 0.932 | Parallel execution + tool use |
+
+## Benchmark Summary
+
+| Metric | Gen 1 | Gen 2 | Gen 3 |
+|--------|-------|-------|-------|
+| Success Rate | 100% | 100% | 100% |
+| Avg Quality | 0.831 | 0.940 | 0.932 |
+| Avg Tokens/Task | 293 | 355 | 230 |
+| Tool Usage | ❌ | ❌ | ✅ |
 
 ## Safety Constraints
 
@@ -45,6 +51,7 @@ Latest architecture: **Multi-Specialist with Self-Reflection**
 5. Analysis: Multi-region database architecture
 
 ---
-*Evolution Status: Active (Gen 2)*
+*Evolution Status: Active (Gen 3)*
 *Last Benchmark: 2026-03-30*
-*Quality Improvement: +13.1% vs Gen 1*
+*Total Generations: 3*
+*Convergence Status: Not yet (3 generations completed)*
