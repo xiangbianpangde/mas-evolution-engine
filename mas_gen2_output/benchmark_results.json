@@ -1,0 +1,60 @@
+{
+  "generation": 2,
+  "timestamp": "2026-03-30T16:45:30.103809",
+  "mode": "simulation",
+  "summary": {
+    "success_rate": 100.0,
+    "avg_quality": 0.9400000000000001,
+    "avg_tokens_per_task": 354.8,
+    "avg_duration": 0.00010695457458496094,
+    "total_tokens": 1774,
+    "total_duration": 0.0005347728729248047
+  },
+  "task_results": [
+    {
+      "task_id": "bench_1",
+      "agent": "CodeAgent",
+      "quality": 0.95,
+      "tokens": 274,
+      "duration": 0.00010156631469726562,
+      "reflection_used": true,
+      "content_preview": "[REFLECTION: Quality check passed with improvements]\n\n[REFLECTED] ```python\ndef longest_palindromic_..."
+    },
+    {
+      "task_id": "bench_2",
+      "agent": "AnalysisAgent",
+      "quality": 0.9,
+      "tokens": 428,
+      "duration": 0.00017642974853515625,
+      "reflection_used": true,
+      "content_preview": "[REFLECTION: Completeness verified, added examples]\n\n[REFLECTED] # Architecture Analysis: Microservi..."
+    },
+    {
+      "task_id": "bench_3",
+      "agent": "ResearchAgent",
+      "quality": 1.0,
+      "tokens": 370,
+      "duration": 6.556510925292969e-05,
+      "reflection_used": true,
+      "content_preview": "[REFLECTION: Depth verified, current state updated]\n\n[REFLECTED] # Quantum Computing: Recent Develop..."
+    },
+    {
+      "task_id": "bench_4",
+      "agent": "CodeAgent",
+      "quality": 0.95,
+      "tokens": 274,
+      "duration": 8.273124694824219e-05,
+      "reflection_used": true,
+      "content_preview": "[REFLECTION: Quality check passed with improvements]\n\n[REFLECTED] ```python\ndef longest_palindromic_..."
+    },
+    {
+      "task_id": "bench_5",
+      "agent": "AnalysisAgent",
+      "quality": 0.9,
+      "tokens": 428,
+      "duration": 0.00010848045349121094,
+      "reflection_used": true,
+      "content_preview": "[REFLECTION: Completeness verified, added examples]\n\n[REFLECTED] # Architecture Analysis: Microservi..."
+    }
+  ]
+}

@@ -3,19 +3,23 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "mas_test": 1743433600
+    "mas_test": 1743433800
   },
-  "activeTests": {
+  "activeTests": {},
+  "completedTests": {
     "mas_gen1": {
-      "pid": 22336,
-      "started": "2026-03-30T16:40:00Z",
-      "benchmark": "5_tasks",
-      "status": "running"
+      "completed": "2026-03-30T16:40:00Z",
+      "success_rate": 1.0,
+      "avg_quality": 0.831,
+      "avg_tokens": 293,
+      "avg_duration_sec": 0.88,
+      "status": "baseline_established"
     }
   },
   "evolution": {
     "current_generation": 1,
     "baseline_established": true,
-    "convergence_count": 0
+    "convergence_count": 0,
+    "last_10_improvements": []
   }
 }
