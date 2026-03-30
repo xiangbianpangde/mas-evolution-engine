@@ -89,10 +89,101 @@
       "task_type": "research",
       "quality": 1.0,
       "timestamp": "2026-03-30T18:44:50.204677"
+    },
+    {
+      "insight": "# Complete implementation with error handling",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.512644"
+    },
+    {
+      "insight": "assert solution(\"babad\") in [\"bab\", \"aba\"]",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.513548"
+    },
+    {
+      "insight": "This solution uses dynamic programming with expand-around-center optimization.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.514398"
+    },
+    {
+      "insight": "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.924618"
+    },
+    {
+      "insight": "| Criteria | Option A | Option B | Winner |",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.925672"
+    },
+    {
+      "insight": "- Team size: Small to medium (< 50 engineers)",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:14.926630"
+    },
+    {
+      "insight": "- **Qubits**: Quantum bits with superposition |\u03c8\u27e9 = \u03b1|0\u27e9 + \u03b2|1\u27e9",
+      "task_type": "research",
+      "quality": 0.8,
+      "timestamp": "2026-03-30T23:09:15.336440"
+    },
+    {
+      "insight": "| 1000+ qubit processor | IBM | Scale milestone |",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:15.338636"
+    },
+    {
+      "insight": "- Quantum advantage in optimization problems",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:15.340798"
+    },
+    {
+      "insight": "# Complete implementation with error handling",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:15.750061"
+    },
+    {
+      "insight": "assert solution(\"babad\") in [\"bab\", \"aba\"]",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:15.752387"
+    },
+    {
+      "insight": "This solution uses dynamic programming with expand-around-center optimization.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:15.754482"
+    },
+    {
+      "insight": "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:16.165292"
+    },
+    {
+      "insight": "| Criteria | Option A | Option B | Winner |",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:16.166548"
+    },
+    {
+      "insight": "- Team size: Small to medium (< 50 engineers)",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:16.167673"
     }
   ],
   "patterns": {
     "code": [
+      "assert solution(\"babad\") in [\"bab\", \"aba\"]",
       "# Complete implementation with error handling",
       "assert solution(\"babad\") in [\"bab\", \"aba\"]",
       "# Complete implementation with error handling",
@@ -116,28 +207,28 @@
   "metrics": {},
   "tool_effectiveness": {
     "code_execution_code": {
-      "success": 4,
-      "total": 4
-    },
-    "self_verification_code": {
-      "success": 6,
-      "total": 6
-    },
-    "architecture_database_analysis": {
-      "success": 6,
-      "total": 6
-    },
-    "self_verification_analysis": {
       "success": 8,
       "total": 8
     },
+    "self_verification_code": {
+      "success": 12,
+      "total": 12
+    },
+    "architecture_database_analysis": {
+      "success": 12,
+      "total": 12
+    },
+    "self_verification_analysis": {
+      "success": 16,
+      "total": 16
+    },
     "web_search_research": {
-      "success": 5,
-      "total": 5
+      "success": 10,
+      "total": 10
     },
     "self_verification_research": {
-      "success": 5,
-      "total": 6
+      "success": 10,
+      "total": 12
     }
   }
 }

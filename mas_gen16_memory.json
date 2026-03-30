@@ -89,10 +89,101 @@
       "task_type": "analysis",
       "quality": 1.0,
       "timestamp": "2026-03-30T18:44:33.834159"
+    },
+    {
+      "insight": "# Complete implementation with error handling",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.512943"
+    },
+    {
+      "insight": "assert solution(\"babad\") in [\"bab\", \"aba\"]",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.514805"
+    },
+    {
+      "insight": "This solution uses dynamic programming with expand-around-center optimization.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.516779"
+    },
+    {
+      "insight": "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.930078"
+    },
+    {
+      "insight": "| Criteria | Option A | Option B | Winner |",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.931106"
+    },
+    {
+      "insight": "- Team size: Small to medium (< 50 engineers)",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:06.931981"
+    },
+    {
+      "insight": "- **Qubits**: Quantum bits with superposition |\u03c8\u27e9 = \u03b1|0\u27e9 + \u03b2|1\u27e9",
+      "task_type": "research",
+      "quality": 0.8,
+      "timestamp": "2026-03-30T23:09:07.342175"
+    },
+    {
+      "insight": "| 1000+ qubit processor | IBM | Scale milestone |",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:07.345238"
+    },
+    {
+      "insight": "- Quantum advantage in optimization problems",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:07.346373"
+    },
+    {
+      "insight": "# Complete implementation with error handling",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:07.756335"
+    },
+    {
+      "insight": "assert solution(\"babad\") in [\"bab\", \"aba\"]",
+      "task_type": "code",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:07.759678"
+    },
+    {
+      "insight": "This solution uses dynamic programming with expand-around-center optimization.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:07.760790"
+    },
+    {
+      "insight": "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:08.174031"
+    },
+    {
+      "insight": "| Criteria | Option A | Option B | Winner |",
+      "task_type": "analysis",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:08.175207"
+    },
+    {
+      "insight": "- Team size: Small to medium (< 50 engineers)",
+      "task_type": "research",
+      "quality": 1.0,
+      "timestamp": "2026-03-30T23:09:08.176286"
     }
   ],
   "patterns": {
     "code": [
+      "assert solution(\"babad\") in [\"bab\", \"aba\"]",
       "# Complete implementation with error handling",
       "assert solution(\"babad\") in [\"bab\", \"aba\"]",
       "# Complete implementation with error handling",
@@ -102,8 +193,8 @@
       "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
       "| Criteria | Option A | Option B | Winner |",
       "This solution uses dynamic programming with expand-around-center optimization.",
-      "| Criteria | Option A | Option B | Winner |",
-      "This analysis covers the architectural patterns, trade-offs, and implementation considerations."
+      "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
+      "| Criteria | Option A | Option B | Winner |"
     ],
     "research": [
       "- Team size: Small to medium (< 50 engineers)",
@@ -116,28 +207,28 @@
   "metrics": {},
   "tool_effectiveness": {
     "code_execution_code": {
-      "success": 4,
-      "total": 4
-    },
-    "self_verification_code": {
-      "success": 6,
-      "total": 6
-    },
-    "architecture_database_analysis": {
-      "success": 6,
-      "total": 6
-    },
-    "self_verification_analysis": {
       "success": 8,
       "total": 8
     },
+    "self_verification_code": {
+      "success": 12,
+      "total": 12
+    },
+    "architecture_database_analysis": {
+      "success": 12,
+      "total": 12
+    },
+    "self_verification_analysis": {
+      "success": 16,
+      "total": 16
+    },
     "web_search_research": {
-      "success": 5,
-      "total": 5
+      "success": 10,
+      "total": 10
     },
     "self_verification_research": {
-      "success": 5,
-      "total": 6
+      "success": 10,
+      "total": 12
     }
   }
 }
