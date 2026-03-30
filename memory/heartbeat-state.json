@@ -1,11 +1,13 @@
 {
   "lastChecks": {
-    "gen24_complete": 1774900980
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "evolution": 1774891200
   },
-  "currentStatus": {
-    "running": "none",
-    "last_quality": 1.0,
-    "convergence_streak": "2/10",
-    "note": "Gen 24 achieved PERFECT 1.000 quality! Previous best was 0.989. Research task enhancement successful."
+  "currentTest": {
+    "pid": 29601,
+    "gen": 44,
+    "startedAt": 1774891200
   }
 }
