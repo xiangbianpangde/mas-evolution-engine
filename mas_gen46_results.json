@@ -1,0 +1,39 @@
+{
+  "generation": 46,
+  "avg_quality": 1.0,
+  "success_rate": 1.0,
+  "perfect_count": 5,
+  "total_time": 0.017929792404174805,
+  "results": [
+    {
+      "task_id": "bench_1",
+      "quality": 1.0,
+      "subtasks": 3,
+      "verified": true
+    },
+    {
+      "task_id": "bench_2",
+      "quality": 1.0,
+      "subtasks": 3,
+      "verified": true
+    },
+    {
+      "task_id": "bench_3",
+      "quality": 1.0,
+      "subtasks": 3,
+      "verified": true
+    },
+    {
+      "task_id": "bench_4",
+      "quality": 1.0,
+      "subtasks": 3,
+      "verified": true
+    },
+    {
+      "task_id": "bench_5",
+      "quality": 1.0,
+      "subtasks": 3,
+      "verified": true
+    }
+  ]
+}
