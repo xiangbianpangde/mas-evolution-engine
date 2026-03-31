@@ -1,0 +1,53 @@
+{
+  "generation": 302,
+  "total_score": 0.31161666666666665,
+  "benchmarks": {
+    "ARC-AGI-3": {
+      "avg": 0.18333333333333335,
+      "weighted": 0.04583333333333334,
+      "passed": false
+    },
+    "BBEH": {
+      "avg": 0.725,
+      "weighted": 0.145,
+      "passed": false
+    },
+    "HLE": {
+      "avg": 0.195,
+      "weighted": 0.029249999999999998,
+      "passed": false
+    },
+    "IMO-ANSWER": {
+      "avg": 0.12,
+      "weighted": 0.018,
+      "passed": false
+    },
+    "SWE-Bench-Pro": {
+      "avg": 0.2833333333333333,
+      "weighted": 0.028333333333333335,
+      "passed": false
+    },
+    "MATH-500": {
+      "avg": 0.35000000000000003,
+      "weighted": 0.028000000000000004,
+      "passed": false
+    },
+    "GPQA-Diamond": {
+      "avg": 0.195,
+      "weighted": 0.0078000000000000005,
+      "passed": false
+    },
+    "OSWorld-Tool-Hard": {
+      "avg": 0.42500000000000004,
+      "weighted": 0.0085,
+      "passed": false
+    },
+    "ZeroBench": {
+      "avg": 0.09000000000000001,
+      "weighted": 0.0009000000000000001,
+      "passed": false
+    }
+  },
+  "architecture": "Advanced MAS with Expert Agents",
+  "memory_size": 20
+}

@@ -1,0 +1,239 @@
+{
+  "generation": 301,
+  "benchmark_suite": "AGI-Max-Difficulty-v2026",
+  "timestamp": "2026-03-31T04:00:03.655006",
+  "total_score": 0.26674021815734805,
+  "is_human_replaceable": false,
+  "is_expert_level": false,
+  "is_converged": false,
+  "best_generation": 301,
+  "benchmark_scores": {
+    "ARC-AGI-3": {
+      "avg_score": 0.16214720456928083,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.25
+    },
+    "IMO-ANSWER": {
+      "avg_score": 0.08279577862744343,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.15
+    },
+    "GPQA-Diamond": {
+      "avg_score": 0.160665250256353,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.04
+    },
+    "SWE-Bench-Pro": {
+      "avg_score": 0.23839283156177968,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.1
+    },
+    "BBEH": {
+      "avg_score": 0.6544721086934562,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.2
+    },
+    "HLE": {
+      "avg_score": 0.14301595361049893,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.15
+    },
+    "MATH-500": {
+      "avg_score": 0.287056385981193,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.08
+    },
+    "OSWorld-Tool-Hard": {
+      "avg_score": 0.4012995519270578,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.02
+    },
+    "ZeroBench": {
+      "avg_score": 0.018084035717657834,
+      "threshold": 0.8,
+      "passed": false,
+      "weight": 0.01
+    }
+  },
+  "task_results": [
+    {
+      "task_id": "arc1",
+      "benchmark": "ARC-AGI-3",
+      "difficulty": "extreme",
+      "score": 0.1822303648088825,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "arc2",
+      "benchmark": "ARC-AGI-3",
+      "difficulty": "extreme",
+      "score": 0.19680898943932706,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "arc3",
+      "benchmark": "ARC-AGI-3",
+      "difficulty": "extreme",
+      "score": 0.10740225945963294,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "imo1",
+      "benchmark": "IMO-ANSWER",
+      "difficulty": "extreme",
+      "score": 0.050446332070014234,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "imo2",
+      "benchmark": "IMO-ANSWER",
+      "difficulty": "extreme",
+      "score": 0.11914989116133327,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "imo3",
+      "benchmark": "IMO-ANSWER",
+      "difficulty": "extreme",
+      "score": 0.0787911126509828,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "gpqa1",
+      "benchmark": "GPQA-Diamond",
+      "difficulty": "extreme",
+      "score": 0.1576532339492618,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "gpqa2",
+      "benchmark": "GPQA-Diamond",
+      "difficulty": "extreme",
+      "score": 0.1636772665634442,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "swe1",
+      "benchmark": "SWE-Bench-Pro",
+      "difficulty": "expert",
+      "score": 0.26347050931819527,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "swe2",
+      "benchmark": "SWE-Bench-Pro",
+      "difficulty": "expert",
+      "score": 0.2184255394185282,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "swe3",
+      "benchmark": "SWE-Bench-Pro",
+      "difficulty": "expert",
+      "score": 0.23328244594861555,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "bbh1",
+      "benchmark": "BBEH",
+      "difficulty": "hard",
+      "score": 0.654229506370351,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "bbh2",
+      "benchmark": "BBEH",
+      "difficulty": "hard",
+      "score": 0.6547147110165614,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "hle1",
+      "benchmark": "HLE",
+      "difficulty": "hard",
+      "score": 0.15584993908469957,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "hle2",
+      "benchmark": "HLE",
+      "difficulty": "hard",
+      "score": 0.1301819681362983,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "math1",
+      "benchmark": "MATH-500",
+      "difficulty": "hard",
+      "score": 0.25166124100158954,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "math2",
+      "benchmark": "MATH-500",
+      "difficulty": "hard",
+      "score": 0.3224515309607964,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "os1",
+      "benchmark": "OSWorld-Tool-Hard",
+      "difficulty": "hard",
+      "score": 0.402729181633003,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "os2",
+      "benchmark": "OSWorld-Tool-Hard",
+      "difficulty": "hard",
+      "score": 0.3998699222211126,
+      "threshold": 0.8,
+      "passed": false
+    },
+    {
+      "task_id": "zb1",
+      "benchmark": "ZeroBench",
+      "difficulty": "extreme",
+      "score": 0.018084035717657834,
+      "threshold": 0.8,
+      "passed": false
+    }
+  ],
+  "benchmarks_passed": 0,
+  "total_benchmarks": 9,
+  "human_threshold": 0.8,
+  "expert_threshold": 0.95,
+  "previous_best_on_trivial_benchmarks": 0.99,
+  "gap_analysis": {
+    "previous_score": 0.99,
+    "new_score": 0.26674021815734805,
+    "gap": 0.7232597818426519,
+    "reason": "Previous benchmarks were trivial, new benchmarks are AGI-level"
+  }
+}
