@@ -1,0 +1,258 @@
+{
+  "generation": 50,
+  "success_rate": 100.0,
+  "avg_quality": 1.0,
+  "avg_tokens": 163.2,
+  "results": [
+    {
+      "task_id": "bench_1",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Phase 1: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 1: Longest palindromic substring with ",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Phase 2: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 2: Longest palindromic substring with ",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Phase 3: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 3: Longest palindromic substring with ",
+            "quality": 0.97
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen50 Milestone: Longest palindromic substring with tests",
+        "quality": 0.97,
+        "verified": true,
+        "tokens": 156
+      },
+      "quality": 1.0,
+      "tokens": 156,
+      "verified": true
+    },
+    {
+      "task_id": "bench_2",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Phase 1: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 1: Microservices vs monolithic - compl",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Phase 2: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 2: Microservices vs monolithic - compl",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Phase 3: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 3: Microservices vs monolithic - compl",
+            "quality": 0.97
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen50 Milestone: Microservices vs monolithic - complete a",
+        "quality": 0.97,
+        "verified": true,
+        "tokens": 168
+      },
+      "quality": 1.0,
+      "tokens": 168,
+      "verified": true
+    },
+    {
+      "task_id": "bench_3",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Phase 1: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Phase 1: Quantum computing - comprehensive r",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Phase 2: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Phase 2: Quantum computing - comprehensive r",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Phase 3: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Phase 3: Quantum computing - comprehensive r",
+            "quality": 0.97
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen50 Milestone: Quantum computing - comprehensive resear",
+        "quality": 0.97,
+        "verified": true,
+        "tokens": 168
+      },
+      "quality": 1.0,
+      "tokens": 168,
+      "verified": true
+    },
+    {
+      "task_id": "bench_4",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Phase 1: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 1: Distributed rate limiter system des",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Phase 2: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 2: Distributed rate limiter system des",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Phase 3: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Phase 3: Distributed rate limiter system des",
+            "quality": 0.97
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen50 Milestone: Distributed rate limiter system design w",
+        "quality": 0.97,
+        "verified": true,
+        "tokens": 156
+      },
+      "quality": 1.0,
+      "tokens": 156,
+      "verified": true
+    },
+    {
+      "task_id": "bench_5",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Phase 1: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 1: Multi-region active-active database",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Phase 2: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 2: Multi-region active-active database",
+            "quality": 0.97
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Phase 3: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Phase 3: Multi-region active-active database",
+            "quality": 0.97
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen50 Milestone: Multi-region active-active database arch",
+        "quality": 0.97,
+        "verified": true,
+        "tokens": 168
+      },
+      "quality": 1.0,
+      "tokens": 168,
+      "verified": true
+    }
+  ]
+}
