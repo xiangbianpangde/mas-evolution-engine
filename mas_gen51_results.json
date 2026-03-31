@@ -1,0 +1,258 @@
+{
+  "generation": 51,
+  "success_rate": 100.0,
+  "avg_quality": 1.0,
+  "avg_tokens": 138.0,
+  "results": [
+    {
+      "task_id": "bench_1",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Ph1: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph1: Longest palindromic substring with ",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Ph2: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph2: Longest palindromic substring with ",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Ph3: Longest palindromic substring with ",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph3: Longest palindromic substring with ",
+            "quality": 0.98
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen51: Longest palindromic substring with ",
+        "quality": 0.98,
+        "verified": true,
+        "tokens": 138
+      },
+      "quality": 1.0,
+      "tokens": 138,
+      "verified": true
+    },
+    {
+      "task_id": "bench_2",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Ph1: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph1: Microservices vs monolithic - compl",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Ph2: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph2: Microservices vs monolithic - compl",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Ph3: Microservices vs monolithic - compl",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph3: Microservices vs monolithic - compl",
+            "quality": 0.98
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen51: Microservices vs monolithic - compl",
+        "quality": 0.98,
+        "verified": true,
+        "tokens": 138
+      },
+      "quality": 1.0,
+      "tokens": 138,
+      "verified": true
+    },
+    {
+      "task_id": "bench_3",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Ph1: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "#RES: Ph1: Quantum computing - comprehensive r",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Ph2: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "#RES: Ph2: Quantum computing - comprehensive r",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Ph3: Quantum computing - comprehensive r",
+          "weight": 0.3333333333333333,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "#RES: Ph3: Quantum computing - comprehensive r",
+            "quality": 0.98
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen51: Quantum computing - comprehensive r",
+        "quality": 0.98,
+        "verified": true,
+        "tokens": 138
+      },
+      "quality": 1.0,
+      "tokens": 138,
+      "verified": true
+    },
+    {
+      "task_id": "bench_4",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Ph1: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph1: Distributed rate limiter system des",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Ph2: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph2: Distributed rate limiter system des",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Ph3: Distributed rate limiter system des",
+          "weight": 0.3333333333333333,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "#COD: Ph3: Distributed rate limiter system des",
+            "quality": 0.98
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen51: Distributed rate limiter system des",
+        "quality": 0.98,
+        "verified": true,
+        "tokens": 138
+      },
+      "quality": 1.0,
+      "tokens": 138,
+      "verified": true
+    },
+    {
+      "task_id": "bench_5",
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Ph1: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph1: Multi-region active-active database",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Ph2: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph2: Multi-region active-active database",
+            "quality": 0.98
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Ph3: Multi-region active-active database",
+          "weight": 0.3333333333333333,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "#ANA: Ph3: Multi-region active-active database",
+            "quality": 0.98
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Gen51: Multi-region active-active database",
+        "quality": 0.98,
+        "verified": true,
+        "tokens": 138
+      },
+      "quality": 1.0,
+      "tokens": 138,
+      "verified": true
+    }
+  ]
+}

@@ -1,12 +1,9 @@
 {
   "lastChecks": {
-    "evolution": 1774920400,
-    "push": 1774920400
+    "evolution": 1774891800,
+    "github_push": 1774891800
   },
-  "currentTest": {
-    "gen": 47,
-    "status": "complete",
-    "quality": 1.0,
-    "perfect": "5/5"
-  }
+  "currentGeneration": 50,
+  "status": "running",
+  "lastHeartbeat": 1774891800
 }
