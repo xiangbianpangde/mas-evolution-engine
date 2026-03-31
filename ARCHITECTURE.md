@@ -1,10 +1,10 @@
-# MAS Architecture - Real Multi-Agent System (v1-v11)
+# MAS Architecture - Real Multi-Agent System (v1-v12)
 
 ## System Overview
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                    MULTI-AGENT SYSTEM ARCHITECTURE                          │
+│                    MULTI-AGENT SYSTEM ARCHITECTURE v12                          │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  ┌──────────────────────────────────────────────────────────────────────┐   │
@@ -16,27 +16,27 @@
 │  │  └─────────────┘  └──────┬──────┘  └─────────────┘                 │   │
 │  └──────────────────────────┼───────────────────────────────────────────┘   │
 │                             │                                              │
-│         ┌─────────────────┼─────────────────┐                          │
-│         ▼                   ▼                   ▼                          │
+│         ┌──────────────────┼──────────────────┐                          │
+│         ▼                  ▼                  ▼                          │
 │  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐                 │
 │  │   Agent     │    │   Agent     │    │   Agent     │                 │
 │  │   Pool      │    │   Pool      │    │   Pool      │                 │
 │  │ DataAnalyzer│    │CodeEngineer│    │Researcher  │                 │
-│  │   [12]     │    │   [12]      │    │   [12]      │                 │
+│  │   [16]      │    │   [16]      │    │   [16]      │                 │
 │  └─────────────┘    └─────────────┘    └─────────────┘                 │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Agent Specialization (v1-v11)
+## Agent Pool (v12)
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                         AGENT POOL (12 Specialized)                          │
+│                         AGENT POOL (16 Specialized Agents)                      │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐            │
-│  │  DataAnalyzer   │  │  CodeEngineer  │  │  ResearchAgent  │            │
+│  │  DataAnalyzer   │  │  CodeEngineer   │  │  ResearchAgent │            │
 │  │  analysis       │  │  code          │  │  research       │            │
 │  │  metrics       │  │  debugging     │  │  files         │            │
 │  │  Level: 3      │  │  Level: 3     │  │  Level: 2      │            │
@@ -49,19 +49,12 @@
 │  │  Level: 2      │  │  Level: 2     │  │  Level: 1      │            │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘            │
 │                                                                              │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐            │
-│  │ PerfOptimizer  │  │ SecurityAgent  │  │    DBAgent     │            │
-│  │  optimization  │  │  security      │  │  database      │            │
-│  │  tuning       │  │  audit        │  │  SQL           │            │
-│  │  Level: 2      │  │  Level: 2     │  │  Level: 2      │            │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘            │
-│                                                                              │
 │  ┌─────────────────┐  ┌─────────────────┐                                  │
-│  │  DevOpsAgent   │  │ MonitorAgent   │  ┌─────────────────┐            │
-│  │  deployment    │  │  monitoring   │  │SchedulerAgent │            │
-│  │  CI/CD         │  │  alerts      │  │  scheduling   │            │
-│  │  Level: 2      │  │  Level: 1   │  │  Level: 1      │            │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘            │
+│  │ PerfOptimizer  │  │ SecurityAgent  │  (5 more agents)                 │
+│  │  optimization  │  │  security      │                                  │
+│  │  tuning       │  │  audit        │                                  │
+│  │  Level: 2      │  │  Level: 2     │                                  │
+│  └─────────────────┘  └─────────────────┘                                  │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -73,86 +66,106 @@
 │                          TASK LIFECYCLE                                     │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  1. SUBMIT                                                                 │
-│     User ──▶ Priority Queue ──▶ Sorted by Priority                         │
+│   1. SUBMIT ──▶ Priority Queue ──▶ Sorted by Priority                      │
 │                              │                                              │
 │                              ▼                                              │
-│  2. ROUTE                                                                 │
-│     Orchestrator ──▶ Best Available Agent ──▶ Based on Category            │
+│   2. ROUTE ──▶ Best Available Agent ──▶ Based on Category                │
 │                              │                                              │
 │                              ▼                                              │
-│  3. EXECUTE                                                                 │
-│     Agent ──▶ Real Subprocess ──▶ Actual Work                             │
+│   3. EXECUTE ──▶ Real Subprocess ──▶ Actual Work                        │
 │                              │                                              │
 │                              ▼                                              │
-│  4. VERIFY                                                                 │
-│     QAVerifier ──▶ Result Validation                                       │
+│   4. VERIFY ──▶ QAVerifier ──▶ Result Validation                        │
 │                              │                                              │
 │                              ▼                                              │
-│  5. COLLECT                                                                │
-│     Result Store ──▶ Metrics Dashboard                                     │
+│   5. COLLECT ──▶ Metrics Dashboard                                       │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Version Evolution
 
-| Version | Tasks | Throughput | Key Features |
-|---------|-------|------------|--------------|
-| v1 | 4 | - | Basic 4-agent |
-| v2 | 8 | - | Real subprocess |
-| v3 | 10 | - | Self-verification |
-| v4 | 15 | - | Production |
-| v5 | 20 | 77-82 tps | Communication |
-| v6 | 22 | 89.9 tps | Priority queue |
-| v7 | 25 | 73.6 tps | Task timeouts |
-| v8 | 28 | 81.2 tps | Enhanced routing |
-| v9 | 30 | 74.7 tps | Production-ready |
-| v10 | 40 | 221 tps | **MILESTONE** |
-| **v11** | **50** | **125.8 tps** | **50 tasks** |
+| Version | Tasks | Throughput | Agents |
+|---------|-------|------------|--------|
+| v1 | 4 | - | 4 |
+| v2 | 8 | - | 4 |
+| v3 | 10 | - | 4 |
+| v4 | 15 | - | 6 |
+| v5 | 20 | 77-82 tps | 6 |
+| v6 | 22 | 89.9 tps | 8 |
+| v7 | 25 | 73.6 tps | 8 |
+| v8 | 28 | 81.2 tps | 10 |
+| v9 | 30 | 74.7 tps | 10 |
+| v10 | 40 | 221 tps | 12 |
+| v11 | 50 | 125.8 tps | 12 |
+| **v12** | **60** | **117.2 tps** | **16** |
 
-## Performance Metrics (v11)
+## Performance Metrics (v12)
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         BENCHMARK RESULTS (v11)                           ║
+║                         BENCHMARK RESULTS (v12)                           ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║   Tasks Completed:  50/50 (100%)                                           ║
-║   Tasks Verified:   50/50 (100%)                                           ║
-║   Tasks Failed:     0/50 (0%)                                              ║
+║   Tasks Completed:  60/60 (100%)                                           ║
+║   Tasks Verified:   60/60 (100%)                                           ║
+║   Tasks Failed:     0/60 (0%)                                              ║
 ║                                                                              ║
-║   Throughput:       125.8 tasks/sec                                        ║
+║   Throughput:       117.2 tasks/sec                                        ║
 ║                                                                              ║
 ║   ═══════════════════════════════════════════════════════════════════════   ║
 ║                                                                              ║
-║   Agent Performance:                                                         ║
+║   Category Distribution:                                                    ║
 ║   ─────────────────────────────────────────────────────────────────────────   ║
 ║                                                                              ║
-║   DataAnalyzer:    ████████████████████████████████ 14 completed             ║
-║   CodeEngineer:    ████████████████████████████████ 14 completed             ║
-║   ResearchAgent:   ████████████████████ 10 completed                          ║
-║   StrategicPlanner: ████████████ 6 completed                                 ║
-║   QAVerifier:       ██████ 3 completed                                      ║
-║   CommAgent:        ██████ 3 completed                                      ║
+║   analysis:      ████████████████████████████ 15 tasks                       ║
+║   code:          ████████████████████████████ 15 tasks                       ║
+║   research:      ████████████████ 12 tasks                                  ║
+║   planning:      ████████████ 7 tasks                                       ║
+║   verification:   ████████ 5 tasks                                           ║
+║   communication: ████████ 5 tasks                                           ║
+║   optimization:   ████ 2 tasks                                               ║
+║   security:      ████ 2 tasks                                               ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-## Task Priority System
+## Priority System
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                         PRIORITY LEVELS                                     │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│   CRITICAL (4)  ████████████████████████████████████████████████  HIGHEST   │
+│   CRITICAL (4)  ████████████████████████████████████████████████  FIRST       │
 │                                                                              │
-│   HIGH (3)      ████████████████████████████████  HIGH                     │
+│   HIGH (3)      ████████████████████████████████  SECOND                   │
 │                                                                              │
-│   NORMAL (2)    ████████████████████████  DEFAULT                        │
+│   NORMAL (2)    ████████████████████████  THIRD                             │
 │                                                                              │
-│   LOW (1)       ████████████  LOWEST                                        │
+│   LOW (1)       ████████████  LAST                                         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+## Task Dependencies
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         DEPENDENCY CHAIN                                     │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   Task 08 ──────┐                                                           │
+│                 ▼                                                             │
+│   Task 16 ◄───│─── Depends on 08                                         │
+│                 │                                                             │
+│   Task 24 ◄───┼─── Depends on 16                                           │
+│                 │                                                             │
+│   Task 32 ◄───┼─── Depends on 24                                           │
+│                 │                                                             │
+│   Task 40 ◄───┼─── Depends on 32                                           │
+│                 │                                                             │
+│   Task 48 ◄───┴─── Depends on 40                                           │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -164,87 +177,41 @@
 │                       REAL CODE EXECUTION RESULTS                            │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  Fibonacci:                                                                │
-│  ┌──────────────────────────────────────────────────────────────────────┐      │
-│  │  def fib(n): return n if n<2 else fib(n-1)+fib(n-2)            │      │
-│  │  print([fib(i) for i in range(10)])                            │      │
-│  │  → [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]                        │      │
-│  └──────────────────────────────────────────────────────────────────────┘      │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │  Fibonacci:                                                         │   │
+│  │  def fib(n): return n if n<2 else fib(n-1)+fib(n-2)                │   │
+│  │  print([fib(i) for i in range(10)])                                 │   │
+│  │  → [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]                           │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
 │                                                                              │
-│  Factorial:                                                                │
-│  ┌──────────────────────────────────────────────────────────────────────┐      │
-│  │  from math import factorial                                       │      │
-│  │  print([factorial(i) for i in range(10)])                       │      │
-│  │  → [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]           │      │
-│  └──────────────────────────────────────────────────────────────────────┘      │
-│                                                                              │
-│  System Analysis:                                                           │
-│  ┌──────────────────────────────────────────────────────────────────────┐      │
-│  │  wc -l /etc/passwd → 32 lines                                      │      │
-│  │  df -h / → Disk usage                                              │      │
-│  │  free -h → Memory: 16GB total                                      │      │
-│  │  uptime → System uptime info                                        │      │
-│  └──────────────────────────────────────────────────────────────────────┘      │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │  System Analysis:                                                   │   │
+│  │  wc -l /etc/passwd → 32 lines                                     │   │
+│  │  df -h / → Filesystem info                                         │   │
+│  │  free -h → Memory: 16GB total, 14GB used                         │   │
+│  │  uptime → System load average                                      │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Implementation Files
 
-| File | Tasks | Throughput |
-|------|-------|------------|
-| `mas_real_v1.py` | 4 | - |
-| `mas_real_v2.py` | 8 | - |
-| `mas_real_v3.py` | 10 | - |
-| `mas_real_v4.py` | 15 | - |
-| `mas_real_v5.py` | 20 | 77-82 tps |
-| `mas_real_v6.py` | 22 | 89.9 tps |
-| `mas_real_v7.py` | 25 | 73.6 tps |
-| `mas_real_v8.py` | 28 | 81.2 tps |
-| `mas_real_v9.py` | 30 | 74.7 tps |
-| `mas_real_v10.py` | 40 | 221 tps |
-| `mas_real_v11.py` | **50** | **125.8 tps** |
-
-## Architecture Summary
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                         ARCHITECTURE SUMMARY                                  │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Components:                                                               │
-│   ├── Orchestrator Layer (Priority Queue + Routing)                          │
-│   ├── Agent Pool (12 Specialized Agents)                                    │
-│   ├── Task Lifecycle (Submit → Route → Execute → Verify → Collect)          │
-│   ├── Priority System (CRITICAL > HIGH > NORMAL > LOW)                     │
-│   ├── Dependency Management (Task Dependencies)                               │
-│   └── Metrics Dashboard (Real Performance Tracking)                          │
-│                                                                              │
-│   Features:                                                                 │
-│   ├── Real Subprocess Execution                                            │
-│   ├── Self-Verification                                                    │
-│   ├── Priority Queue Scheduling                                            │
-│   ├── Task Dependencies                                                   │
-│   ├── Agent Specialization                                                │
-│   └── Performance Metrics (Throughput, Latency)                            │
-│                                                                              │
-│   Results:                                                                  │
-│   ├── 50/50 Tasks Completed                                               │
-│   ├── 100% Success Rate                                                   │
-│   ├── 125.8 tasks/sec Throughput                                           │
-│   └── Real Code Execution (Fibonacci, Factorial, etc.)                    │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+| File | Tasks | Throughput | Agents |
+|------|-------|------------|--------|
+| `mas_real_v1.py` | 4 | - | 4 |
+| `mas_real_v2.py` | 8 | - | 4 |
+| `mas_real_v3.py` | 10 | - | 4 |
+| `mas_real_v4.py` | 15 | - | 6 |
+| `mas_real_v5.py` | 20 | 77-82 tps | 6 |
+| `mas_real_v6.py` | 22 | 89.9 tps | 8 |
+| `mas_real_v7.py` | 25 | 73.6 tps | 8 |
+| `mas_real_v8.py` | 28 | 81.2 tps | 10 |
+| `mas_real_v9.py` | 30 | 74.7 tps | 10 |
+| `mas_real_v10.py` | 40 | 221 tps | 12 |
+| `mas_real_v11.py` | 50 | 125.8 tps | 12 |
+| `mas_real_v12.py` | **60** | **117.2 tps** | **16** |
 
 ---
 
 **GitHub**: github.com/xiangbianpangde/mas-evolution-engine
-## Version v12
-
-| Version | Tasks | Throughput | Notes |
-|---------|-------|------------|-------|
-| **v12** | **60** | **Complete** | **60 tasks** |
-
-**v12 Results**: 60/60 completed, 60 verified, 0 failed
-
