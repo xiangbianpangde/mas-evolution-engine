@@ -1,0 +1,27 @@
+PASS if1: 1.000
+FAIL if2: 0.750
+PASS if3: 1.000
+PASS if4: 1.000
+PASS sw1: 1.000
+PASS sw2: 1.000
+PASS sw3: 1.000
+PASS m1: 1.000
+PASS m2: 1.000
+PASS m3: 1.000
+PASS g1: 1.000
+PASS g2: 1.000
+PASS t1: 1.000
+PASS t2: 1.000
+PASS b1: 1.000
+PASS b2: 1.000
+
+==================================================
+IFEval         : 0.938
+SWE-bench      : 1.000
+MATH           : 1.000
+GSM8K          : 1.000
+TruthfulQA     : 1.000
+BBH            : 1.000
+
+OVERALL: 0.990
+PASSED: 6/6
