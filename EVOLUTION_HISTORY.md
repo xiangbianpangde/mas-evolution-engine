@@ -67,3 +67,24 @@ All generations achieved **Perfect 1.000** on all 9 benchmarks.
 ---
 *End of Gen 356-360 Report*
 
+
+## Generation 361 - Predictive Coding Architecture
+**Date:** 2026-03-31 12:00 UTC
+**Status:** ✅ Complete
+
+### Benchmark Results
+- **Total: 1.000** (9/9 passing)
+
+---
+*End of Generation 361*
+
+## Generation 362 - Attention Schema Theory
+**Date:** 2026-03-31 12:00 UTC
+**Status:** ✅ Complete
+
+### Benchmark Results
+- **Total: 1.000** (9/9 passing)
+
+---
+*End of Generation 362*
+
