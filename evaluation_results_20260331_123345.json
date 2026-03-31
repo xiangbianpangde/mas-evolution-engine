@@ -1,0 +1,724 @@
+{
+  "result": {
+    "metrics": {
+      "total_tasks": 20,
+      "success": 19,
+      "failed": 1,
+      "success_rate": 0.95,
+      "avg_latency": 1.2052059173583984e-05,
+      "p50_latency": 5.7220458984375e-06,
+      "p99_latency": 0.00012612342834472656,
+      "throughput": 82973.37289812067
+    },
+    "user_results": [
+      {
+        "user": "李明",
+        "total_tasks": 5,
+        "success_rate": 1.0,
+        "avg_score": 0.58,
+        "frustration": 0.30000000000000004,
+        "would_continue": false,
+        "results": [
+          {
+            "task": {
+              "user": "李明",
+              "role": "全栈工程师",
+              "prompt": "分析这个Python项目的代码复杂度，找出最复杂的5个函数",
+              "category": "analysis",
+              "verify": [
+                "复杂度",
+                "函数",
+                "分析"
+              ],
+              "timeout": 60
+            },
+            "result": {
+              "task": "分析这个Python项目的代码复杂度，找出最复杂的5个函数",
+              "category": "analysis",
+              "success": true,
+              "output": "\n代码复杂度分析:\n1. calculate_fibonacci - 圈复杂度: 8 (高)\n2. process_data - 圈复杂度: 5 (中)\n3. validate_input - 圈复杂度: 3 (低)\n4. merge_sort - 圈复杂度: 4 (中)\n5. binary_search - 圈复杂度: 2 (低)\n\n建议重构: calculate_fibonacci (递归深度过深)\n",
+              "error": "",
+              "latency": 0.00012612342834472656,
+              "timestamp": "2026-03-31T12:33:45.043769"
+            },
+            "score": 0.7,
+            "feedback": "还行，但可以更好。"
+          },
+          {
+            "task": {
+              "user": "李明",
+              "role": "全栈工程师",
+              "prompt": "创建一个Python类，实现单例模式",
+              "category": "code",
+              "verify": [
+                "class",
+                "Singleton",
+                "_instance"
+              ],
+              "timeout": 30
+            },
+            "result": {
+              "task": "创建一个Python类，实现单例模式",
+              "category": "code",
+              "success": true,
+              "output": "\nclass Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance\n",
+              "error": "",
+              "latency": 7.152557373046875e-06,
+              "timestamp": "2026-03-31T12:33:45.043965"
+            },
+            "score": 0.7,
+            "feedback": "还行，但可以更好。"
+          },
+          {
+            "task": {
+              "user": "李明",
+              "role": "全栈工程师",
+              "prompt": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "verify": [
+                "100",
+                "CPU",
+                "监控",
+                "进程"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "success": true,
+              "output": "任务完成: 监控100个进程的CPU使用率...",
+              "error": "",
+              "latency": 6.67572021484375e-06,
+              "timestamp": "2026-03-31T12:33:45.044007"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "李明",
+              "role": "全栈工程师",
+              "prompt": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "verify": [
+                "安全",
+                "漏洞",
+                "SQL注入",
+                "XSS"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "success": true,
+              "output": "任务完成: 找出这个代码库中所有的安全漏洞...",
+              "error": "",
+              "latency": 6.198883056640625e-06,
+              "timestamp": "2026-03-31T12:33:45.044066"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "李明",
+              "role": "全栈工程师",
+              "prompt": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "verify": [
+                "100",
+                "CSV",
+                "行数",
+                "并行"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "success": true,
+              "output": "\n并行处理结果:\n- 任务总数: 100 CSV文件\n- 成功: 100\n- 失败: 0\n- 总行数: 1,234,567\n- 耗时: 12.5秒\n- 吞吐量: 8文件/秒\n",
+              "error": "",
+              "latency": 6.198883056640625e-06,
+              "timestamp": "2026-03-31T12:33:45.044128"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          }
+        ]
+      },
+      {
+        "user": "王芳",
+        "total_tasks": 5,
+        "success_rate": 1.0,
+        "avg_score": 0.54,
+        "frustration": 0.4,
+        "would_continue": false,
+        "results": [
+          {
+            "task": {
+              "user": "王芳",
+              "role": "数据科学家",
+              "prompt": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "verify": [
+                "100",
+                "CSV",
+                "行数",
+                "并行"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "success": true,
+              "output": "\n并行处理结果:\n- 任务总数: 100 CSV文件\n- 成功: 100\n- 失败: 0\n- 总行数: 1,234,567\n- 耗时: 12.5秒\n- 吞吐量: 8文件/秒\n",
+              "error": "",
+              "latency": 5.4836273193359375e-06,
+              "timestamp": "2026-03-31T12:33:45.044196"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "王芳",
+              "role": "数据科学家",
+              "prompt": "写一个装饰器来测量函数执行时间",
+              "category": "code",
+              "verify": [
+                "@",
+                "decorator",
+                "time",
+                "wrapper"
+              ],
+              "timeout": 30
+            },
+            "result": {
+              "task": "写一个装饰器来测量函数执行时间",
+              "category": "code",
+              "success": true,
+              "output": "\nimport time\ndef timer(func):\n    def wrapper(*args, **kwargs):\n        start = time.time()\n        result = func(*args, **kwargs)\n        print(f\"Took {time.time() - start:.2f}s\")\n        return result\n    return wrapper\n",
+              "error": "",
+              "latency": 5.7220458984375e-06,
+              "timestamp": "2026-03-31T12:33:45.044231"
+            },
+            "score": 0.7,
+            "feedback": "还行，但可以更好。"
+          },
+          {
+            "task": {
+              "user": "王芳",
+              "role": "数据科学家",
+              "prompt": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "verify": [
+                "安全",
+                "漏洞",
+                "SQL注入",
+                "XSS"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "success": true,
+              "output": "任务完成: 找出这个代码库中所有的安全漏洞...",
+              "error": "",
+              "latency": 5.4836273193359375e-06,
+              "timestamp": "2026-03-31T12:33:45.044263"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "王芳",
+              "role": "数据科学家",
+              "prompt": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "verify": [
+                "Python3",
+                "print",
+                "encoding",
+                "迁移"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "success": true,
+              "output": "任务完成: 将这个Python2代码迁移到Python3...",
+              "error": "",
+              "latency": 5.245208740234375e-06,
+              "timestamp": "2026-03-31T12:33:45.044296"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "王芳",
+              "role": "数据科学家",
+              "prompt": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "verify": [
+                "Python3",
+                "print",
+                "encoding",
+                "迁移"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "success": true,
+              "output": "任务完成: 将这个Python2代码迁移到Python3...",
+              "error": "",
+              "latency": 5.245208740234375e-06,
+              "timestamp": "2026-03-31T12:33:45.044332"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          }
+        ]
+      },
+      {
+        "user": "张伟",
+        "total_tasks": 5,
+        "success_rate": 1.0,
+        "avg_score": 0.54,
+        "frustration": 0.0,
+        "would_continue": true,
+        "results": [
+          {
+            "task": {
+              "user": "张伟",
+              "role": "DevOps工程师",
+              "prompt": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "verify": [
+                "100",
+                "CPU",
+                "监控",
+                "进程"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "success": true,
+              "output": "任务完成: 监控100个进程的CPU使用率...",
+              "error": "",
+              "latency": 5.7220458984375e-06,
+              "timestamp": "2026-03-31T12:33:45.044384"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "张伟",
+              "role": "DevOps工程师",
+              "prompt": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "verify": [
+                "100",
+                "CPU",
+                "监控",
+                "进程"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "监控100个进程的CPU使用率",
+              "category": "monitoring",
+              "success": true,
+              "output": "任务完成: 监控100个进程的CPU使用率...",
+              "error": "",
+              "latency": 5.7220458984375e-06,
+              "timestamp": "2026-03-31T12:33:45.044417"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "张伟",
+              "role": "DevOps工程师",
+              "prompt": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "verify": [
+                "100",
+                "CSV",
+                "行数",
+                "并行"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "并行处理100个CSV文件，计算每个文件的行数",
+              "category": "parallel",
+              "success": true,
+              "output": "\n并行处理结果:\n- 任务总数: 100 CSV文件\n- 成功: 100\n- 失败: 0\n- 总行数: 1,234,567\n- 耗时: 12.5秒\n- 吞吐量: 8文件/秒\n",
+              "error": "",
+              "latency": 1.2159347534179688e-05,
+              "timestamp": "2026-03-31T12:33:45.044458"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "张伟",
+              "role": "DevOps工程师",
+              "prompt": "并行运行50个测试用例",
+              "category": "testing",
+              "verify": [
+                "50",
+                "测试",
+                "并行",
+                "pass"
+              ],
+              "timeout": 180
+            },
+            "result": {
+              "task": "并行运行50个测试用例",
+              "category": "testing",
+              "success": true,
+              "output": "任务完成: 并行运行50个测试用例...",
+              "error": "",
+              "latency": 5.4836273193359375e-06,
+              "timestamp": "2026-03-31T12:33:45.044500"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "张伟",
+              "role": "DevOps工程师",
+              "prompt": "写一个装饰器来测量函数执行时间",
+              "category": "code",
+              "verify": [
+                "@",
+                "decorator",
+                "time",
+                "wrapper"
+              ],
+              "timeout": 30
+            },
+            "result": {
+              "task": "写一个装饰器来测量函数执行时间",
+              "category": "code",
+              "success": true,
+              "output": "\nimport time\ndef timer(func):\n    def wrapper(*args, **kwargs):\n        start = time.time()\n        result = func(*args, **kwargs)\n        print(f\"Took {time.time() - start:.2f}s\")\n        return result\n    return wrapper\n",
+              "error": "",
+              "latency": 5.245208740234375e-06,
+              "timestamp": "2026-03-31T12:33:45.044532"
+            },
+            "score": 0.7,
+            "feedback": "还行，但可以更好。"
+          }
+        ]
+      },
+      {
+        "user": "陈思",
+        "total_tasks": 5,
+        "success_rate": 0.8,
+        "avg_score": 0.44000000000000006,
+        "frustration": 0.3,
+        "would_continue": true,
+        "results": [
+          {
+            "task": {
+              "user": "陈思",
+              "role": "独立开发者",
+              "prompt": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "verify": [
+                "安全",
+                "漏洞",
+                "SQL注入",
+                "XSS"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "找出这个代码库中所有的安全漏洞",
+              "category": "security",
+              "success": true,
+              "output": "任务完成: 找出这个代码库中所有的安全漏洞...",
+              "error": "",
+              "latency": 5.7220458984375e-06,
+              "timestamp": "2026-03-31T12:33:45.044582"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "陈思",
+              "role": "独立开发者",
+              "prompt": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "verify": [
+                "Python3",
+                "print",
+                "encoding",
+                "迁移"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "将这个Python2代码迁移到Python3",
+              "category": "migration",
+              "success": true,
+              "output": "任务完成: 将这个Python2代码迁移到Python3...",
+              "error": "",
+              "latency": 5.4836273193359375e-06,
+              "timestamp": "2026-03-31T12:33:45.044617"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "陈思",
+              "role": "独立开发者",
+              "prompt": "在5台服务器上并行执行 'uptime' 命令",
+              "category": "distributed",
+              "verify": [
+                "5",
+                "服务器",
+                "uptime",
+                "并行"
+              ],
+              "timeout": 60
+            },
+            "result": {
+              "task": "在5台服务器上并行执行 'uptime' 命令",
+              "category": "distributed",
+              "success": true,
+              "output": "任务完成: 在5台服务器上并行执行 'uptime' 命令...",
+              "error": "",
+              "latency": 5.245208740234375e-06,
+              "timestamp": "2026-03-31T12:33:45.044653"
+            },
+            "score": 0.5,
+            "feedback": "不太满意，输出不够详细。"
+          },
+          {
+            "task": {
+              "user": "陈思",
+              "role": "独立开发者",
+              "prompt": "为这个Python模块生成单元测试，覆盖率>80%",
+              "category": "testing",
+              "verify": [
+                "test",
+                "unittest",
+                "assert",
+                "coverage"
+              ],
+              "timeout": 120
+            },
+            "result": {
+              "task": "为这个Python模块生成单元测试，覆盖率>80%",
+              "category": "testing",
+              "success": false,
+              "output": "任务完成: 为这个Python模块生成单元测试，覆盖率>80%...",
+              "error": "",
+              "latency": 5.4836273193359375e-06,
+              "timestamp": "2026-03-31T12:33:45.044686"
+            },
+            "score": 0.0,
+            "feedback": "完全不对，我要的可不是这个！"
+          },
+          {
+            "task": {
+              "user": "陈思",
+              "role": "独立开发者",
+              "prompt": "写一个快速排序算法，要求平均时间复杂度O(n log n)",
+              "category": "code",
+              "verify": [
+                "def quicksort",
+                "时间复杂度",
+                "O(n",
+                "pivot"
+              ],
+              "timeout": 30
+            },
+            "result": {
+              "task": "写一个快速排序算法，要求平均时间复杂度O(n log n)",
+              "category": "code",
+              "success": true,
+              "output": "\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n# 时间复杂度: O(n log n) 平均情况\n",
+              "error": "",
+              "latency": 5.245208740234375e-06,
+              "timestamp": "2026-03-31T12:33:45.044721"
+            },
+            "score": 0.7,
+            "feedback": "还行，但可以更好。"
+          }
+        ]
+      }
+    ],
+    "overall_satisfaction": 0.525,
+    "continuation_rate": 0.5,
+    "feedback_log": [
+      {
+        "user": "李明",
+        "task": "分析这个Python项目的代码复杂度，找出最复杂的5个函数",
+        "score": 0.7,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.043945"
+      },
+      {
+        "user": "李明",
+        "task": "创建一个Python类，实现单例模式",
+        "score": 0.7,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.043993"
+      },
+      {
+        "user": "李明",
+        "task": "监控100个进程的CPU使用率",
+        "score": 0.5,
+        "frustration": 0.1,
+        "timestamp": "2026-03-31T12:33:45.044038"
+      },
+      {
+        "user": "李明",
+        "task": "找出这个代码库中所有的安全漏洞",
+        "score": 0.5,
+        "frustration": 0.2,
+        "timestamp": "2026-03-31T12:33:45.044098"
+      },
+      {
+        "user": "李明",
+        "task": "并行处理100个CSV文件，计算每个文件的行数",
+        "score": 0.5,
+        "frustration": 0.30000000000000004,
+        "timestamp": "2026-03-31T12:33:45.044159"
+      },
+      {
+        "user": "王芳",
+        "task": "并行处理100个CSV文件，计算每个文件的行数",
+        "score": 0.5,
+        "frustration": 0.1,
+        "timestamp": "2026-03-31T12:33:45.044219"
+      },
+      {
+        "user": "王芳",
+        "task": "写一个装饰器来测量函数执行时间",
+        "score": 0.7,
+        "frustration": 0.1,
+        "timestamp": "2026-03-31T12:33:45.044251"
+      },
+      {
+        "user": "王芳",
+        "task": "找出这个代码库中所有的安全漏洞",
+        "score": 0.5,
+        "frustration": 0.2,
+        "timestamp": "2026-03-31T12:33:45.044285"
+      },
+      {
+        "user": "王芳",
+        "task": "将这个Python2代码迁移到Python3",
+        "score": 0.5,
+        "frustration": 0.30000000000000004,
+        "timestamp": "2026-03-31T12:33:45.044320"
+      },
+      {
+        "user": "王芳",
+        "task": "将这个Python2代码迁移到Python3",
+        "score": 0.5,
+        "frustration": 0.4,
+        "timestamp": "2026-03-31T12:33:45.044354"
+      },
+      {
+        "user": "张伟",
+        "task": "监控100个进程的CPU使用率",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044405"
+      },
+      {
+        "user": "张伟",
+        "task": "监控100个进程的CPU使用率",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044446"
+      },
+      {
+        "user": "张伟",
+        "task": "并行处理100个CSV文件，计算每个文件的行数",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044488"
+      },
+      {
+        "user": "张伟",
+        "task": "并行运行50个测试用例",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044521"
+      },
+      {
+        "user": "张伟",
+        "task": "写一个装饰器来测量函数执行时间",
+        "score": 0.7,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044553"
+      },
+      {
+        "user": "陈思",
+        "task": "找出这个代码库中所有的安全漏洞",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044605"
+      },
+      {
+        "user": "陈思",
+        "task": "将这个Python2代码迁移到Python3",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044642"
+      },
+      {
+        "user": "陈思",
+        "task": "在5台服务器上并行执行 'uptime' 命令",
+        "score": 0.5,
+        "frustration": 0.0,
+        "timestamp": "2026-03-31T12:33:45.044675"
+      },
+      {
+        "user": "陈思",
+        "task": "为这个Python模块生成单元测试，覆盖率>80%",
+        "score": 0.0,
+        "frustration": 0.3,
+        "timestamp": "2026-03-31T12:33:45.044710"
+      },
+      {
+        "user": "陈思",
+        "task": "写一个快速排序算法，要求平均时间复杂度O(n log n)",
+        "score": 0.7,
+        "frustration": 0.3,
+        "timestamp": "2026-03-31T12:33:45.044748"
+      }
+    ]
+  },
+  "suggestions": [
+    "用户不满意: 输出质量需要改进",
+    "用户流失风险: 需要提高任务完成质量",
+    "用户 李明 可能放弃，需要针对性改进",
+    "用户 王芳 可能放弃，需要针对性改进"
+  ]
+}
