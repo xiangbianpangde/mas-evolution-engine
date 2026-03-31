@@ -1,0 +1,44 @@
+============================================================
+🧬 MAS EVOLUTION ENGINE - GENERATION 2 BENCHMARK
+============================================================
+Mode: SIMULATION
+============================================================
+
+📊 Benchmark 1/5: bench_1
+📊 [bench_1] Resources: CPU=0.0% Mem=11.7% Disk=71.3GB
+🎯 [bench_1] Using CodeAgent with self-reflection
+✅ [bench_1] Completed: quality=0.95, tokens=274, duration=0.0s, reflection=True
+
+📊 Benchmark 2/5: bench_2
+📊 [bench_2] Resources: CPU=0.0% Mem=11.7% Disk=71.3GB
+🎯 [bench_2] Using AnalysisAgent with self-reflection
+✅ [bench_2] Completed: quality=0.90, tokens=428, duration=0.0s, reflection=True
+
+📊 Benchmark 3/5: bench_3
+📊 [bench_3] Resources: CPU=0.0% Mem=11.7% Disk=71.3GB
+🎯 [bench_3] Using ResearchAgent with self-reflection
+✅ [bench_3] Completed: quality=1.00, tokens=370, duration=0.0s, reflection=True
+
+📊 Benchmark 4/5: bench_4
+📊 [bench_4] Resources: CPU=0.0% Mem=11.7% Disk=71.3GB
+🎯 [bench_4] Using CodeAgent with self-reflection
+✅ [bench_4] Completed: quality=0.95, tokens=274, duration=0.0s, reflection=True
+
+📊 Benchmark 5/5: bench_5
+📊 [bench_5] Resources: CPU=0.0% Mem=11.7% Disk=71.3GB
+🎯 [bench_5] Using AnalysisAgent with self-reflection
+✅ [bench_5] Completed: quality=0.90, tokens=428, duration=0.0s, reflection=True
+
+============================================================
+📈 BENCHMARK RESULTS - GENERATION 2
+============================================================
+  Success Rate:    100.0%
+  Avg Quality:     0.940
+  Avg Tokens/Task: 355
+  Avg Duration:    0.0s
+  Total Tokens:    1774
+  Total Duration:  0.0s
+  Reflection Rate: 100%
+============================================================
+
+🏁 Benchmark complete. Results saved to: /root/.openclaw/workspace/mas_gen2_output/benchmark_results.json

@@ -413,8 +413,8 @@ This analysis covers the architectural patterns, trade-offs, and implementation 
         return templates.get(subtask.id, f"## {subtask.description}\n\nContent.\n{tool_output}{memory_note}")
     
     def _assess_quality(self, content: str, verified: bool, tool_used: bool) -> float:
-        """Consistent quality scoring methodology - optimized for >0.988"""
-        score = 0.47  # Slightly higher base
+        """Consistent quality scoring methodology"""
+        score = 0.45  # Slightly higher base score
         
         # Length contribution (up to +0.20)
         if len(content) > 500:
@@ -430,18 +430,18 @@ This analysis covers the architectural patterns, trade-offs, and implementation 
         elif "\n" in content:
             score += 0.10
         
-        # Technical depth (up to +0.18)
-        tech_keywords = ["algorithm", "complexity", "architecture", "system", "optimization", "performance", "implementation", "distributed"]
+        # Technical depth (up to +0.15)
+        tech_keywords = ["algorithm", "complexity", "architecture", "system", "optimization", "performance", "implementation"]
         tech_count = sum(1 for kw in tech_keywords if kw in content.lower())
-        score += min(0.18, tech_count * 0.05)
+        score += min(0.15, tech_count * 0.05)
         
         # Examples/tests (up to +0.10)
         if "test" in content.lower() or "assert" in content.lower() or "example" in content.lower():
             score += 0.10
         
-        # Verification bonus (up to +0.12)
+        # Verification bonus (up to +0.10)
         if verified:
-            score += 0.12
+            score += 0.10
         
         # Tool usage bonus (up to +0.05)
         if tool_used:
@@ -547,7 +547,7 @@ def check_resources():
 
 def run_benchmark():
     print("=" * 60)
-    print("🧬 GENERATION 15 - Pushing Beyond 0.989")
+    print("🧬 GENERATION 15 - Convergence Check")
     print("=" * 60)
     
     kb = KnowledgeBase(MEMORY_FILE)
@@ -581,8 +581,8 @@ def run_benchmark():
     print("=" * 60)
     
     # Save
-    os.makedirs("/root/.openclaw/workspace/mas_gen11_output", exist_ok=True)
-    with open("/root/.openclaw/workspace/mas_gen11_output/benchmark_results.json", "w") as f:
+    os.makedirs("/root/.openclaw/workspace/mas_gen15_output", exist_ok=True)
+    with open("/root/.openclaw/workspace/mas_gen15_output/benchmark_results.json", "w") as f:
         json.dump({
             "generation": 6,
             "timestamp": datetime.now().isoformat(),
