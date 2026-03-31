@@ -1,9 +1,16 @@
 {
   "lastChecks": {
-    "evolution": 1774891800,
-    "github_push": 1774891800
+    "evolution": 1774897100,
+    "github_push": 1774897100
   },
-  "currentGeneration": 50,
+  "currentGeneration": 53,
   "status": "running",
-  "lastHeartbeat": 1774891800
+  "lastHeartbeat": 1774897100,
+  "recentGenerations": {
+    "gen51": {"q": 1.000, "eff": 138, "status": "pushed"},
+    "gen52": {"q": 0.990, "eff": 138, "status": "pushed"},
+    "gen53": {"q": 1.000, "eff": 138, "status": "pushed"}
+  },
+  "convergence_streak": [1.000, 1.000, 1.000, 1.000, 1.000],
+  "notes": "Gen 53 quality restored to 1.000. Efficiency maintained at 138tok/task."
 }
