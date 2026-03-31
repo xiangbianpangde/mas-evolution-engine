@@ -1,36 +1,6 @@
 {
   "insights": [
     {
-      "insight": "assert solution(\"babad\") in [\"bab\", \"aba\"]",
-      "task_type": "code",
-      "quality": 1.0,
-      "timestamp": "2026-03-30T21:59:52.834257"
-    },
-    {
-      "insight": "This solution uses dynamic programming with expand-around-center optimization.",
-      "task_type": "analysis",
-      "quality": 1.0,
-      "timestamp": "2026-03-30T21:59:52.840245"
-    },
-    {
-      "insight": "This analysis covers the architectural patterns, trade-offs, and implementation considerations.",
-      "task_type": "analysis",
-      "quality": 1.0,
-      "timestamp": "2026-03-30T21:59:53.292629"
-    },
-    {
-      "insight": "| Criteria | Option A | Option B | Winner |",
-      "task_type": "analysis",
-      "quality": 1.0,
-      "timestamp": "2026-03-30T21:59:53.298512"
-    },
-    {
-      "insight": "- Team size: Small to medium (< 50 engineers)",
-      "task_type": "research",
-      "quality": 1.0,
-      "timestamp": "2026-03-30T21:59:53.304033"
-    },
-    {
       "insight": "# Complete implementation with error handling",
       "task_type": "code",
       "quality": 1.0,
@@ -594,6 +564,31 @@
       "insight": "Gen46: bench_5",
       "quality": 1.0,
       "timestamp": "2026-03-31T01:25:44.507637"
+    },
+    {
+      "insight": "Task bench_1 completed with q=0.200",
+      "quality": 0.19999999999999998,
+      "timestamp": "2026-03-31T03:22:19.537430"
+    },
+    {
+      "insight": "Task bench_2 completed with q=0.247",
+      "quality": 0.24708333333333332,
+      "timestamp": "2026-03-31T03:22:19.538560"
+    },
+    {
+      "insight": "Task bench_3 completed with q=0.242",
+      "quality": 0.24166666666666667,
+      "timestamp": "2026-03-31T03:22:19.539320"
+    },
+    {
+      "insight": "Task bench_4 completed with q=0.200",
+      "quality": 0.19999999999999998,
+      "timestamp": "2026-03-31T03:22:19.540089"
+    },
+    {
+      "insight": "Task bench_5 completed with q=0.195",
+      "quality": 0.19458333333333333,
+      "timestamp": "2026-03-31T03:22:19.540766"
     }
   ],
   "patterns": {
