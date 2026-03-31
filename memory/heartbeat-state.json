@@ -1,16 +1,14 @@
 {
   "lastChecks": {
-    "evolution": 1774897100,
-    "github_push": 1774897100
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "evolution": 1774890480
   },
-  "currentGeneration": 54,
-  "status": "running",
-  "lastHeartbeat": 1774900020,
-  "recentGenerations": {
-    "gen51": {"q": 1.000, "eff": 138, "status": "pushed"},
-    "gen52": {"q": 0.990, "eff": 138, "status": "pushed"},
-    "gen53": {"q": 1.000, "eff": 138, "status": "pushed"}
-  },
-  "convergence_streak": [1.000, 1.000, 1.000, 1.000, 1.000],
-  "notes": "Gen 54 launched - stability focus. Convergence at 5/10."
+  "lastEvolution": {
+    "generation": 360,
+    "score": 0.27,
+    "benchmark": "AGI-Max",
+    "pushStatus": "success"
+  }
 }
