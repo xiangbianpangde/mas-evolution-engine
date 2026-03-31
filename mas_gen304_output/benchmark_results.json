@@ -1,41 +1,41 @@
 {
   "generation": 304,
-  "total_score": 0.5034000000000001,
+  "total_score": 0.5037333333333334,
   "benchmarks": {
     "ARC-AGI-3": {
-      "avg": 0.395,
+      "avg": 0.36166666666666675,
       "passed": false
     },
     "BBEH": {
-      "avg": 0.875,
+      "avg": 0.9183333333333333,
       "passed": true
     },
     "HLE": {
-      "avg": 0.38166666666666665,
+      "avg": 0.355,
       "passed": false
     },
     "IMO-ANSWER": {
-      "avg": 0.31833333333333336,
+      "avg": 0.3316666666666667,
       "passed": false
     },
     "SWE-Bench-Pro": {
-      "avg": 0.48500000000000004,
+      "avg": 0.4716666666666667,
       "passed": false
     },
     "MATH-500": {
-      "avg": 0.5650000000000001,
+      "avg": 0.605,
       "passed": false
     },
     "GPQA-Diamond": {
-      "avg": 0.385,
+      "avg": 0.38166666666666665,
       "passed": false
     },
     "OSWorld-Tool-Hard": {
-      "avg": 0.6750000000000002,
+      "avg": 0.6683333333333334,
       "passed": false
     },
     "ZeroBench": {
-      "avg": 0.20500000000000002,
+      "avg": 0.245,
       "passed": false
     }
   }
