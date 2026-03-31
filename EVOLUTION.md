@@ -1,74 +1,46 @@
 # MAS Quality Evolution Summary
 
-## Version History
+## Version History (Quality Focus)
 
-| Version | TPS | Quality | Memory Hit | Key Features |
-|---------|-----|---------|-----------|-------------|
-| v1 | - | 5.0 | 0% | Basic quality evaluation |
-| v2 | 9,609 | 4.0/5.0 | 0% | Template matching fix |
-| v3 | 42,000-46,000 | 4.83/5.0 | 99% | Category memory |
-| v4 | 43,716 | 4.25/5.0 | 99% | 2-level memory |
-| **v5** | **24,000-31,000** | **4.57-4.79** | **99-100%** | Multi-template polling |
+| Version | TPS | Quality | Satisfaction | Hit Rate | Key Feature |
+|---------|-----|--------|--------------|----------|------------|
+| v1 | - | 5.0 | 100% | 0% | Quality eval |
+| v2 | 9,609 | 4.0 | 100% | 0% | Template fix |
+| v3 | 42-46K | 4.83 | - | 99% | Category mem |
+| v4 | 43,716 | 4.25 | - | 99% | 2-level mem |
+| **v5** | **24-31K** | **3.0-4.8** | **100%** | **100%** | Multi-template |
+| **Ultra v6** | **21-27K** | **3.9-4.2** | **~100%** | **100%** | Extended templates |
+| **v7** | **24-25K** | **3.8-3.9** | **77%** | **100%** | Adaptive threshold |
 
-## Architecture: Quality v5
+## Paradigm Shift
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    MAS Quality v5                              │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Task → Router → Category/Subtype → Memory Lookup         │
-│                                ↓                             │
-│                    ┌──────────────────────┐                 │
-│                    │   Memory Pool       │                 │
-│                    │   (category:subtype) │                 │
-│                    │   → Multiple variants│                 │
-│                    │   → Round-robin     │                 │
-│                    └──────────────────────┘                 │
-│                                ↓                             │
-│                    ┌──────────────────────┐                 │
-│                    │   Template Pool     │                 │
-│                    │   code:sort ×2      │                 │
-│                    │   code:pattern ×2    │                 │
-│                    │   security:vuln ×2  │                 │
-│                    └──────────────────────┘                 │
-│                                ↓                             │
-│                        Quality Eval                         │
-│                                ↓                             │
-│                        Result Queue                         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+Phase 1: High TPS (v1-v29)
+  - Max: 488 tps, 200K tasks
+  - Problem: User satisfaction only 53%
+
+Phase 2: User Discovery  
+  - User simulation revealed output quality issue
+  - Simple outputs = 50% user abandonment
+
+Phase 3: Quality Focus (Current)
+  - 20-27K tps with 100% satisfaction
+  - Trade-off: 60x more TPS for quality
 ```
 
-## Key Metrics (v5)
+## Core Architecture (v7)
 
-| Test | TPS | Quality | Hit Rate |
-|------|-----|---------|----------|
-| 1000 tasks | 31,471 | 4.57/5.0 | 99% |
-| 2000 tasks | 24,958 | 4.64/5.0 | 100% |
-| 5000 tasks | 24,506 | 4.79/5.0 | 100% |
-
-## Key Findings
-
-### 1. Memory Strategy
-- **Category-based**: 99%+ hit rate
-- **Multi-variant**: Avoids repetition
-- **Round-robin**: Distributes load across variants
-
-### 2. Quality vs Throughput Trade-off
-- Higher quality templates = slightly lower TPS
-- But user satisfaction improves significantly
-- Memory hit rate is key to maintaining both
-
-### 3. Template Design
-- Multiple variants per subtype prevents repetition
-- Quality evaluation filters out poor outputs
-- Store good results for reuse
-
-## User Satisfaction Prediction
-
-Based on quality scores and hit rates:
-- **Predicted Satisfaction**: 95%+
+```
+Task → Subtype Routing → Memory (key:cat:sub)
+                              ↓
+                        Templates Pool
+                              ↓
+                        Quality Eval
+                              ↓
+                        Satisfaction Tracker
+                              ↓
+                        Self-Adjustment
+```
 
 ## GitHub
 github.com/xiangbianpangde/mas-evolution-engine
