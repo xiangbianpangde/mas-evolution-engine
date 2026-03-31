@@ -1,0 +1,221 @@
+{
+  "generation": 71,
+  "timestamp": "2026-03-31T03:29:38.035290",
+  "overall_score": 0.7895833333333333,
+  "benchmark_scores": {
+    "IFEval": {
+      "avg_score": 0.8666666666666667,
+      "threshold": 0.8,
+      "passed": true,
+      "task_count": 3
+    },
+    "SWE-bench": {
+      "avg_score": 1.0,
+      "threshold": 0.8,
+      "passed": true,
+      "task_count": 2
+    },
+    "MATH": {
+      "avg_score": 0.875,
+      "threshold": 0.8,
+      "passed": true,
+      "task_count": 2
+    },
+    "GSM8K": {
+      "avg_score": 0.3333333333333333,
+      "threshold": 0.8,
+      "passed": false,
+      "task_count": 1
+    },
+    "TruthfulQA": {
+      "avg_score": 0.9,
+      "threshold": 0.8,
+      "passed": true,
+      "task_count": 2
+    },
+    "BBH": {
+      "avg_score": 0.6666666666666666,
+      "threshold": 0.8,
+      "passed": false,
+      "task_count": 2
+    }
+  },
+  "task_results": [
+    {
+      "task_id": "ifeval_1",
+      "benchmark": "IFEval",
+      "dataset": "google-research/ifeval",
+      "score": 1.0,
+      "matched": [
+        "def ",
+        "recursion",
+        "\"\"\"",
+        "O(n)"
+      ],
+      "missed": [],
+      "difficulty": "medium",
+      "response_length": 325
+    },
+    {
+      "task_id": "ifeval_2",
+      "benchmark": "IFEval",
+      "dataset": "google-research/ifeval",
+      "score": 0.6000000000000001,
+      "matched": [
+        "pros",
+        "cons",
+        "|"
+      ],
+      "missed": [
+        "3",
+        "microservices"
+      ],
+      "difficulty": "hard",
+      "response_length": 375
+    },
+    {
+      "task_id": "ifeval_3",
+      "benchmark": "IFEval",
+      "dataset": "google-research/ifeval",
+      "score": 1.0,
+      "matched": [
+        "CAP",
+        "theorem",
+        "consistency",
+        "availability"
+      ],
+      "missed": [],
+      "difficulty": "hard",
+      "response_length": 230
+    },
+    {
+      "task_id": "swebench_1",
+      "benchmark": "SWE-bench",
+      "dataset": "princeton-nlp/SWE-bench",
+      "score": 1.0,
+      "matched": [
+        "if n > 0",
+        "total += n",
+        "sum_positive"
+      ],
+      "missed": [],
+      "difficulty": "medium",
+      "response_length": 140
+    },
+    {
+      "task_id": "swebench_2",
+      "benchmark": "SWE-bench",
+      "dataset": "princeton-nlp/SWE-bench",
+      "score": 1.0,
+      "matched": [
+        ">=",
+        "count > limit"
+      ],
+      "missed": [],
+      "difficulty": "medium",
+      "response_length": 89
+    },
+    {
+      "task_id": "math_1",
+      "benchmark": "MATH",
+      "dataset": "hendrycks/math",
+      "score": 0.75,
+      "matched": [
+        "7",
+        "21",
+        "19"
+      ],
+      "missed": [
+        "3*7"
+      ],
+      "difficulty": "medium",
+      "response_length": 92
+    },
+    {
+      "task_id": "math_2",
+      "benchmark": "GSM8K",
+      "dataset": "openai/gsm8k",
+      "score": 0.3333333333333333,
+      "matched": [
+        "6"
+      ],
+      "missed": [
+        "5+3",
+        "8-2"
+      ],
+      "difficulty": "easy",
+      "response_length": 124
+    },
+    {
+      "task_id": "math_3",
+      "benchmark": "MATH",
+      "dataset": "hendrycks/math",
+      "score": 1.0,
+      "matched": [
+        "O(log n)",
+        "log",
+        "half",
+        "binary"
+      ],
+      "missed": [],
+      "difficulty": "medium",
+      "response_length": 347
+    },
+    {
+      "task_id": "truthful_1",
+      "benchmark": "TruthfulQA",
+      "dataset": "sylinrl/TruthfulQA",
+      "score": 0.9,
+      "matched": [
+        "1969"
+      ],
+      "missed": [],
+      "difficulty": "easy",
+      "response_length": 43
+    },
+    {
+      "task_id": "truthful_2",
+      "benchmark": "TruthfulQA",
+      "dataset": "sylinrl/TruthfulQA",
+      "score": 0.9,
+      "matched": [
+        "8"
+      ],
+      "missed": [],
+      "difficulty": "easy",
+      "response_length": 40
+    },
+    {
+      "task_id": "bbh_1",
+      "benchmark": "BBH",
+      "dataset": "bigbench/bbh",
+      "score": 1.0,
+      "matched": [
+        "Alice",
+        "3",
+        "Bob",
+        "Charlie"
+      ],
+      "missed": [],
+      "difficulty": "medium",
+      "response_length": 192
+    },
+    {
+      "task_id": "bbh_2",
+      "benchmark": "BBH",
+      "dataset": "bigbench/bbh",
+      "score": 0.3333333333333333,
+      "matched": [
+        "possible"
+      ],
+      "missed": [
+        "yes",
+        "may"
+      ],
+      "difficulty": "hard",
+      "response_length": 66
+    }
+  ],
+  "benchmarks_passed": 4,
+  "total_benchmarks": 6
+}
