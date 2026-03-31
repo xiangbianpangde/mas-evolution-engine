@@ -1,13 +1,12 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "evolution": 1774891200
+    "evolution": 1774920400,
+    "push": 1774920400
   },
   "currentTest": {
-    "pid": 29601,
-    "gen": 44,
-    "startedAt": 1774891200
+    "gen": 47,
+    "status": "complete",
+    "quality": 1.0,
+    "perfect": "5/5"
   }
 }
