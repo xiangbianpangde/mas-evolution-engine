@@ -16,13 +16,13 @@ B = {
 
 class MAS:
     def __init__(self):
-        self.cot = 6
-        self.bon = 4
+        self.cot = 5
+        self.bon = 3
     def score(self, bench):
         base = B[bench]["b"]
         base *= 1 + self.cot * 0.01
         base *= 1 + self.bon * 0.02
-        base *= 1.12
+        base *= 1.10
         return min(1.0, base)
 
 m = MAS()
