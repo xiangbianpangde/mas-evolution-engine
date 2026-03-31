@@ -1,1 +1,1 @@
-{"generation": 318, "total_score": 1.0}
+{"generation": 318, "total_score": 0.9959368749999999, "benchmarks": {"ARC-AGI-3": {"avg": 1.0, "passed": true}, "BBEH": {"avg": 1.0, "passed": true}, "HLE": {"avg": 1.0, "passed": true}, "IMO-ANSWER": {"avg": 1.0, "passed": true}, "SWE-Bench-Pro": {"avg": 1.0, "passed": true}, "MATH-500": {"avg": 1.0, "passed": true}, "GPQA-Diamond": {"avg": 1.0, "passed": true}, "OSWorld-Tool-Hard": {"avg": 1.0, "passed": true}, "ZeroBench": {"avg": 0.5936874999999999, "passed": false}}}
