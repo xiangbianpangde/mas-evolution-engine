@@ -1,0 +1,263 @@
+{
+  "generation": 49,
+  "success_rate": 100.0,
+  "avg_quality": 1.0,
+  "avg_tokens": 178.8,
+  "results": [
+    {
+      "task_id": "bench_1",
+      "complexity": 0.3,
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Step 1: Longest palindromic substring with tests",
+          "weight": 0.25,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 1: Longest palindromic substring with tests",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Step 2: Longest palindromic substring with tests",
+          "weight": 0.35,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 2: Longest palindromic substring with tests",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Step 3: Longest palindromic substring with tests",
+          "weight": 0.25,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 3: Longest palindromic substring with tests",
+            "quality": 0.96
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Synthesized: Longest palindromic substring with tests and analy",
+        "quality": 0.816,
+        "verified": true,
+        "tokens": 168
+      },
+      "quality": 1.0,
+      "tokens": 168,
+      "verified": true
+    },
+    {
+      "task_id": "bench_2",
+      "complexity": 0.55,
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Analysis step 1: Microservices vs monolithic - complete a",
+          "weight": 0.3,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 1: Microservices vs monolithic - com",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Analysis step 2: Microservices vs monolithic - complete a",
+          "weight": 0.4,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 2: Microservices vs monolithic - com",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Analysis step 3: Microservices vs monolithic - complete a",
+          "weight": 0.3,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 3: Microservices vs monolithic - com",
+            "quality": 0.96
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Synthesized: Microservices vs monolithic - complete architectur",
+        "quality": 0.96,
+        "verified": true,
+        "tokens": 186
+      },
+      "quality": 1.0,
+      "tokens": 186,
+      "verified": true
+    },
+    {
+      "task_id": "bench_3",
+      "complexity": 0.5,
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Research phase 1: Quantum computing - comprehensive resear",
+          "weight": 0.25,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Research phase 1: Quantum computing - comprehensiv",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Research phase 2: Quantum computing - comprehensive resear",
+          "weight": 0.35,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Research phase 2: Quantum computing - comprehensiv",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Research phase 3: Quantum computing - comprehensive resear",
+          "weight": 0.4,
+          "agent": "research",
+          "result": {
+            "type": "research",
+            "content": "# Research: Research phase 3: Quantum computing - comprehensiv",
+            "quality": 0.96
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Synthesized: Quantum computing - comprehensive research summary",
+        "quality": 0.96,
+        "verified": true,
+        "tokens": 186
+      },
+      "quality": 1.0,
+      "tokens": 186,
+      "verified": true
+    },
+    {
+      "task_id": "bench_4",
+      "complexity": 0.55,
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Step 1: Distributed rate limiter system design w",
+          "weight": 0.25,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 1: Distributed rate limiter system design w",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Step 2: Distributed rate limiter system design w",
+          "weight": 0.35,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 2: Distributed rate limiter system design w",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Step 3: Distributed rate limiter system design w",
+          "weight": 0.25,
+          "agent": "code",
+          "result": {
+            "type": "code",
+            "content": "# Code: Step 3: Distributed rate limiter system design w",
+            "quality": 0.96
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Synthesized: Distributed rate limiter system design with Redis",
+        "quality": 0.816,
+        "verified": true,
+        "tokens": 168
+      },
+      "quality": 1.0,
+      "tokens": 168,
+      "verified": true
+    },
+    {
+      "task_id": "bench_5",
+      "complexity": 0.55,
+      "subtasks": [
+        {
+          "id": 1,
+          "description": "Analysis step 1: Multi-region active-active database arch",
+          "weight": 0.3,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 1: Multi-region active-active databa",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 2,
+          "description": "Analysis step 2: Multi-region active-active database arch",
+          "weight": 0.4,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 2: Multi-region active-active databa",
+            "quality": 0.96
+          },
+          "verified": true
+        },
+        {
+          "id": 3,
+          "description": "Analysis step 3: Multi-region active-active database arch",
+          "weight": 0.3,
+          "agent": "analysis",
+          "result": {
+            "type": "analysis",
+            "content": "# Analysis: Analysis step 3: Multi-region active-active databa",
+            "quality": 0.96
+          },
+          "verified": true
+        }
+      ],
+      "final": {
+        "content": "Synthesized: Multi-region active-active database architecture",
+        "quality": 0.96,
+        "verified": true,
+        "tokens": 186
+      },
+      "quality": 1.0,
+      "tokens": 186,
+      "verified": true
+    }
+  ]
+}
